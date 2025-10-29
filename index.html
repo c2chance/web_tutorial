@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Technology Tutorial</title>
+    <style>
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: #fff;
+            text-shadow: 0px 0px 11px #333333;
+            margin: 0;
+            padding: 30px;
+        }
+        username {text-transform: lowercase;}
+    </style>
+</head>
+<body>
+    <h1>Hello, Wild World.</h1>
+    <br/>
+
+    <p style="text-align: center">
+        <img src="./lib/static/cat-line.jpg" style="position: relative;">
+    </p>
+
+    <script>
+        // cat-animation
+        let cat = document.querySelector("img");
+        let angle = Math.PI/2;
+        function animate(time, lastTime) {
+            if (lastTime !=null) {
+                angle += (time-lastTime)*0.001;
+            }
+
+            cat.style.top = (Math.sin(angle)*50)+"px";
+            cat.style.left = (Math.cos(angle)*200)+"px";
+            requestAnimationFrame(newTime => animate(newTime, time));
+        }
+        requestAnimationFrame(animate);
+
+    </script>
+</body>
+</html>
