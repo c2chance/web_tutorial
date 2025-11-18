@@ -4,8 +4,11 @@ import 'element-plus/dist/index.css'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import VueAxios from 'vue-axios'
 import axios from 'axios'
-import App from './App.vue'
 
+import router from './tools/Router'
+import store from './tools/Store'
+
+import App from './App.vue'
 const app = createApp(App)
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
     app.component(key, component)
@@ -13,17 +16,6 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 
 app.use(ElementPlus)
 app.use(VueAxios, axios)
+app.use(router)
+app.use(store)
 app.mount('#app')
-/*
-CREATE TABLE IF NOT EXISTS user(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    nickname VARCHAR(32) NOT NULL,
-    account VARCHAR(32) UNIQUE NOT NULL,
-    password VARCHAR(32) NOT NULL
-);
-
-INSERT INTO user(nickname, account, password) 
-VALUES('foobar', 'foobar', 'fb7890')
-
-SELECT * FROM user;
-*/
