@@ -1,0 +1,2055 @@
+0 HEAD
+1 SUBM @SUBM1@
+1 SOUR Ancestry.com Family Trees
+2 NAME Ancestry.com Member Trees
+2 VERS 2025.08
+2 _TREE ZhiSanErm Family Tree
+3 RIN 81749066
+3 NOTE Tropical storm mawar
+3 _ENV prd
+2 CORP Ancestry.com
+3 PHON 801-705-7000
+3 WWW www.ancestry.com
+3 ADDR 1300 West Traverse Parkway
+4 CONT Lehi, UT  84043
+4 CONT USA
+1 DATE 22 Oct 2025
+2 TIME 19:17:57
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @SUBM1@ SUBM
+1 NAME Ancestry.com Member Trees Submitter
+0 @I42446045903@ INDI
+1 NAME Sanerm /Zhi/ Atty.
+2 GIVN Sanerm
+2 SURN Zhi
+2 NSFX Atty.
+1 SEX M
+1 FAMC @F10@
+1 FAMS @F3@
+1 BIRT
+2 DATE 25/10/1978
+2 PLAC Xiangfen, Shanxi, China
+1 ADDR
+2 DATE 26/11/2005
+2 NOTE Move to xili town
+1 WILL
+2 DATE 02jul2012
+2 PLAC beijing, Haidian, Beijing Shiqu, Beijing, China
+2 OBJE @O80@
+2 NOTE create a small bussiness
+1 _WLNK
+2 TITL China digital times
+2 NOTE http://www.digitaltimes.net
+1 _WLNK
+2 TITL google.com
+2 NOTE http://www.google.com.hk
+1 OBJE @O30@
+2 _PRIM Y
+1 OBJE @O80@
+1 OBJE @O51@
+1 OBJE @O69@
+1 OBJE @O66@
+1 OBJE @O15@
+1 OBJE @O82@
+1 OBJE @O81@
+1 OBJE @O18@
+1 OBJE @O25@
+1 OBJE @O1@
+1 OBJE @O63@
+1 OBJE @O40@
+1 OBJE @O64@
+1 OBJE @O72@
+1 OBJE @O12@
+1 OBJE @O50@
+1 OBJE @O57@
+1 OBJE @O28@
+1 OBJE @O70@
+1 OBJE @O75@
+1 OBJE @O60@
+1 OBJE @O33@
+1 OBJE @O65@
+1 OBJE @O11@
+1 OBJE @O27@
+1 OBJE @O26@
+0 @I42446045904@ INDI
+1 NAME HuiQQ /Wong/
+2 GIVN HuiQQ
+2 SURN Wong
+1 SEX F
+1 FAMC @F8@
+1 FAMS @F3@
+1 BIRT
+2 DATE 2/7/1973
+2 PLAC Qionghai, Qionghai, Hainan, China
+1 OBJE @O44@
+2 _PRIM Y
+0 @I42446046114@ INDI
+1 NAME Suanzhu /Zhi/
+2 GIVN Suanzhu
+2 SURN Zhi
+1 SEX M
+1 FAMC @F9@
+1 FAMS @F10@
+1 BIRT
+2 DATE 18/12/1936
+2 PLAC Xiangfen, Xiangfen, Shanxi, China
+1 OBJE @O17@
+2 _PRIM Y
+0 @I42446046431@ INDI
+1 NAME Qianjin /Lu/
+2 GIVN Qianjin
+2 SURN Lu
+1 SEX F
+1 FAMC @F1@
+1 FAMS @F10@
+1 BIRT
+2 DATE 1/6/1939
+2 PLAC Xiangling, Xiangfen, Shanxi, China
+1 EVEN
+2 TYPE relationship with father
+2 DATE 17/05/1960
+2 PLAC Xiangfen, Xiangfen, Shanxi, China
+2 NOTE Not very close, argue everywhere and evertime
+1 DEAT
+2 DATE 17/1/2014
+2 PLAC Xiangling, Xiangfen, Shanxi, China
+1 OBJE @O77@
+2 _PRIM Y
+1 OBJE @O78@
+1 OBJE @O5@
+0 @I42446046745@ INDI
+1 NAME YanErm /Zhi/
+2 GIVN YanErm
+2 SURN Zhi
+1 SEX F
+1 FAMC @F3@
+1 BIRT
+2 DATE 1/3/2006
+2 PLAC Shenzhen, Bao An, Guangdong, China
+1 OBJE @O2@
+2 _PRIM Y
+1 OBJE @O42@
+1 OBJE @O67@
+1 OBJE @O14@
+1 OBJE @O34@
+1 OBJE @O77@
+1 OBJE @O5@
+0 @I42450383522@ INDI
+1 NAME Fuling /Zhi/
+2 GIVN Fuling
+2 SURN Zhi
+1 SEX F
+1 FAMC @F10@
+1 FAMS @F11@
+1 BIRT
+2 DATE 7/6/1976
+1 OBJE @O8@
+2 _PRIM Y
+0 @I42450383609@ INDI
+1 NAME Congling /Zhi/
+2 GIVN Congling
+2 SURN Zhi
+1 SEX M
+1 FAMC @F10@
+1 BIRT
+2 DATE 4/6/1964
+0 @I42450383677@ INDI
+1 NAME xx /Wong/
+2 GIVN xx
+2 SURN Wong
+1 SEX M
+1 FAMS @F8@
+0 @I42451808970@ INDI
+1 NAME Dingshi /Zhi/
+2 GIVN Dingshi
+2 SURN Zhi
+1 SEX M
+1 FAMC @F6@
+1 FAMS @F9@
+1 OBJE @O86@
+2 _PRIM Y
+0 @I42451809008@ INDI
+1 NAME DaNv /Zhang/
+2 GIVN DaNv
+2 SURN Zhang
+1 SEX F
+1 FAMC @F15@
+1 FAMS @F9@
+1 OBJE @O76@
+2 _PRIM Y
+0 @I42451809050@ INDI
+1 NAME Dizhu /Lu/
+2 GIVN Dizhu
+2 SURN Lu
+1 SEX M
+1 FAMC @F12@
+1 FAMS @F1@
+1 OBJE @O43@
+2 _PRIM Y
+0 @I42451809068@ INDI
+1 NAME Jingcun er /Huang/ 井村人?!
+2 GIVN Jingcun er
+2 SURN Huang
+2 NSFX 井村人?!
+1 SEX F
+1 FAMC @F17@
+1 FAMS @F1@
+0 @I42493079676@ INDI
+1 NAME Demao /Zhi/
+2 GIVN Demao
+2 SURN Zhi
+1 SEX M
+1 FAMC @F4@
+1 FAMS @F6@
+1 OBJE @O16@
+2 _PRIM Y
+0 @I42493079751@ INDI
+1 NAME sansan /yan/
+2 GIVN sansan
+2 SURN yan
+1 SEX F
+1 FAMS @F17@
+1 OBJE @O21@
+2 _PRIM Y
+0 @I42493095164@ INDI
+1 NAME Diyidai /Zhang/
+2 GIVN Diyidai
+2 SURN Zhang
+1 SEX M
+1 FAMS @F15@
+1 OBJE @O41@
+2 _PRIM Y
+0 @I46579268235@ INDI
+1 NAME liu xx //
+2 GIVN liu xx
+1 SEX F
+1 FAMS @F8@
+0 @I46579268398@ INDI
+1 NAME xiaomei 1 /Zhi/
+2 GIVN xiaomei 1
+2 SURN Zhi
+1 SEX F
+1 FAMC @F9@
+1 BIRT
+2 DATE 04/01/1941
+1 DEAT
+2 DATE 09/08/1987
+1 OBJE @O22@
+2 _PRIM Y
+0 @I46579268447@ INDI
+1 NAME Xinmin /Lu/
+2 GIVN Xinmin
+2 SURN Lu
+1 SEX M
+1 FAMC @F1@
+1 BIRT
+2 DATE 0/04/1947
+1 OBJE @O79@
+2 _PRIM Y
+0 @I46579268471@ INDI
+1 NAME Ailin /Lu/
+2 GIVN Ailin
+2 SURN Lu
+1 SEX F
+1 FAMC @F1@
+1 BIRT
+2 DATE 05/01/1951
+0 @I46579268499@ INDI
+1 NAME Sanhong /Cao/
+2 GIVN Sanhong
+2 SURN Cao
+1 SEX M
+1 FAMC @F14@
+1 FAMS @F11@
+1 BIRT
+2 DATE 08/06/1968
+1 OBJE @O36@
+2 _PRIM Y
+0 @I46579268580@ INDI
+1 NAME dawei /cao/
+2 GIVN dawei
+2 SURN cao
+1 SEX M
+1 FAMC @F11@
+1 BIRT
+2 DATE 09/02/1992
+1 EDUC 西南大学
+2 CONT 
+2 DATE 01 Sep 2013
+2 PLAC 重庆
+1 _DEG 法律学士
+2 DATE 01 Jul 2017
+2 PLAC 重庆
+1 OBJE @O52@
+2 _PRIM Y
+0 @I46579268599@ INDI
+1 NAME xiaowei /cao/
+2 GIVN xiaowei
+2 SURN cao
+1 SEX F
+1 FAMC @F11@
+1 BIRT
+2 DATE 06/05/1995
+1 OBJE @O20@
+2 _PRIM Y
+0 @I46579268699@ INDI
+1 NAME Nantou /Cui/
+2 GIVN Nantou
+2 SURN Cui
+1 SEX F
+1 FAMS @F6@
+1 OBJE @O74@
+2 _PRIM Y
+0 @I46580516224@ INDI
+1 NAME Bailing /Zhi/
+2 GIVN Bailing
+2 SURN Zhi
+1 SEX M
+1 FAMC @F10@
+1 FAMS @F2@
+1 BIRT
+2 DATE 10/8/1958
+1 DEAT
+2 DATE 1/12/2012
+1 OBJE @O85@
+2 _PRIM Y
+0 @I46580516266@ INDI
+1 NAME Hucun /Du/
+2 GIVN Hucun
+2 SURN Du
+1 SEX F
+1 FAMS @F2@
+1 BIRT
+2 DATE 9/06/1960
+0 @I46580516300@ INDI
+1 NAME Guofeng /Zhi/
+2 GIVN Guofeng
+2 SURN Zhi
+1 SEX M
+1 FAMC @F2@
+1 FAMS @F5@
+1 BIRT
+2 DATE 1/5/1984
+1 OBJE @O13@
+2 _PRIM Y
+0 @I46580516340@ INDI
+1 NAME Guowei /Zhi/
+2 GIVN Guowei
+2 SURN Zhi
+1 SEX M
+1 FAMC @F2@
+1 BIRT
+2 DATE 2/9/1992
+1 OBJE @O59@
+2 _PRIM Y
+0 @I46580516355@ INDI
+1 NAME Shizong /Shi/
+2 GIVN Shizong
+2 SURN Shi
+1 SEX F
+1 FAMS @F5@
+1 BIRT
+2 DATE 9/8/1987
+0 @I46580516384@ INDI
+1 NAME Sidai /Zhi/
+2 GIVN Sidai
+2 SURN Zhi
+1 SEX F
+1 FAMC @F5@
+1 BIRT
+2 DATE 9/5/2013
+1 OBJE @O53@
+2 _PRIM Y
+0 @I46580516629@ INDI
+1 NAME Licun /Lu/
+2 GIVN Licun
+2 SURN Lu
+1 SEX M
+1 FAMS @F12@
+0 @I46580516657@ INDI
+1 NAME Xiangling /Chen/
+2 GIVN Xiangling
+2 SURN Chen
+1 SEX F
+1 FAMC @F7@
+1 FAMS @F12@
+1 OBJE @O84@
+2 _PRIM Y
+0 @I46580516714@ INDI
+1 NAME Laoer /Lu/
+2 GIVN Laoer
+2 SURN Lu
+1 SEX M
+1 FAMC @F12@
+0 @I46580516772@ INDI
+1 NAME Shengfu /Zhi/ 生富
+2 GIVN Shengfu
+2 SURN Zhi
+2 NSFX 生富
+1 SEX M
+1 FAMC @F13@
+1 FAMS @F4@
+1 OBJE @O45@
+2 _PRIM Y
+0 @I46580516802@ INDI
+1 NAME Huangshi /Yan/
+2 GIVN Huangshi
+2 SURN Yan
+1 SEX F
+1 FAMS @F4@
+1 OBJE @O56@
+2 _PRIM Y
+0 @I200132910414@ INDI
+1 NAME Robert /Chen/
+2 GIVN Robert
+2 SURN Chen
+1 SEX M
+1 FAMS @F7@
+1 OBJE @O47@
+2 _PRIM Y
+1 OBJE @O71@
+1 OBJE @O61@
+1 OBJE @O68@
+1 OBJE @O19@
+1 OBJE @O54@
+1 OBJE @O7@
+1 OBJE @O29@
+1 OBJE @O9@
+0 @I200132910431@ INDI
+1 NAME Elise /Fang/
+2 GIVN Elise
+2 SURN Fang
+1 SEX F
+1 FAMS @F7@
+1 OBJE @O62@
+2 _PRIM Y
+1 OBJE @O32@
+1 OBJE @O24@
+1 OBJE @O23@
+1 OBJE @O83@
+1 OBJE @O55@
+1 OBJE @O35@
+1 OBJE @O46@
+1 OBJE @O48@
+1 OBJE @O31@
+1 OBJE @O10@
+1 OBJE @O6@
+0 @I200150376089@ INDI
+1 NAME Dewang /Cao/
+2 GIVN Dewang
+2 SURN Cao
+1 SEX M
+1 FAMS @F14@
+0 @I202047681696@ INDI
+1 NAME Yonghui /Zhi/ 永惠
+2 GIVN Yonghui
+2 SURN Zhi
+2 NSFX 永惠
+1 SEX M
+1 FAMC @F16@
+1 FAMS @F13@
+1 BIRT
+2 DATE 08/05/1785
+1 DEAT
+2 DATE 04/05/1845
+1 OBJE @O4@
+2 _PRIM Y
+0 @I202099114201@ INDI
+1 NAME Baofeng /Zhi/ 保風
+2 GIVN Baofeng
+2 SURN Zhi
+2 NSFX 保風
+1 SEX M
+1 FAMS @F16@
+1 BIRT
+2 DATE 05/01/1750
+1 DEAT
+2 DATE 07/08/1807
+1 OBJE @O38@
+2 _PRIM Y
+0 @F1@ FAM
+1 HUSB @I42451809050@
+1 WIFE @I42451809068@
+1 CHIL @I42446046431@
+1 CHIL @I46579268447@
+1 CHIL @I46579268471@
+0 @F2@ FAM
+1 HUSB @I46580516224@
+1 WIFE @I46580516266@
+1 CHIL @I46580516300@
+1 CHIL @I46580516340@
+0 @F3@ FAM
+1 HUSB @I42446045903@
+1 WIFE @I42446045904@
+1 CHIL @I42446046745@
+1 MARR
+2 DATE 31/12/2006
+2 PLAC Chongqing Shiqu, Chongqing, China
+2 NOTE get a licesence on some sunday
+0 @F4@ FAM
+1 HUSB @I46580516772@
+1 WIFE @I46580516802@
+1 CHIL @I42493079676@
+0 @F5@ FAM
+1 HUSB @I46580516300@
+1 WIFE @I46580516355@
+1 CHIL @I46580516384@
+0 @F6@ FAM
+1 HUSB @I42493079676@
+1 WIFE @I46579268699@
+1 CHIL @I42451808970@
+0 @F7@ FAM
+1 HUSB @I200132910414@
+1 WIFE @I200132910431@
+1 CHIL @I46580516657@
+0 @F8@ FAM
+1 HUSB @I42450383677@
+1 WIFE @I46579268235@
+1 CHIL @I42446045904@
+0 @F9@ FAM
+1 HUSB @I42451808970@
+1 WIFE @I42451809008@
+1 CHIL @I42446046114@
+1 CHIL @I46579268398@
+0 @F10@ FAM
+1 HUSB @I42446046114@
+1 WIFE @I42446046431@
+1 CHIL @I46580516224@
+1 CHIL @I42450383609@
+1 CHIL @I42450383522@
+1 CHIL @I42446045903@
+1 MARR
+2 DATE 7/5/1957
+2 PLAC Xiangling, Xiangfen, Shanxi, China
+2 NOTE 18 married to
+0 @F11@ FAM
+1 HUSB @I46579268499@
+1 WIFE @I42450383522@
+1 CHIL @I46579268580@
+1 CHIL @I46579268599@
+0 @F12@ FAM
+1 HUSB @I46580516629@
+1 WIFE @I46580516657@
+1 CHIL @I46580516714@
+1 CHIL @I42451809050@
+0 @F13@ FAM
+1 HUSB @I202047681696@
+1 CHIL @I46580516772@
+0 @F14@ FAM
+1 HUSB @I200150376089@
+1 CHIL @I46579268499@
+0 @F15@ FAM
+1 HUSB @I42493095164@
+1 CHIL @I42451809008@
+0 @F16@ FAM
+1 HUSB @I202099114201@
+1 CHIL @I202047681696@
+0 @F17@ FAM
+1 WIFE @I42493079751@
+1 CHIL @I42451809068@
+0 @O1@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 569341
+3 _WDTH 1920
+3 _HGHT 1080
+2 TITL 169105
+1 _OID 0383370e-e9f1-48de-95a2-2b36ff519573
+1 _CREA 2017-09-02 06:14:23.677
+1 _USER 5adVr0vk9atgykVygprNP6kl0pbPo4bUfqLC0HR/klS8kmHEKXjW9baP+LiTXIP4zoHwi4VF9pcqQ9aUbMbjsA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O2@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 2846410
+3 _WDTH 3920
+3 _HGHT 2940
+2 TITL DSC_2417.39CF
+1 _OID 067cf260-7bc7-47ed-8f20-f606410c3399
+1 DATE 11/10/2014
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2015-07-20 12:36:48.843
+1 _USER 1nQLxnA3flCjvAjEIG/YReB2Z36uvLX8UfjC7F4xkV7HA4+ucaqorDdgXM6+p5S9QG87brT4eoInWTtcIEI+bA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O3@ OBJE
+1 FILE
+2 FORM pdf
+3 TYPE story
+3 _MTYPE story
+3 _STYPE pdf
+3 _SIZE 3882537
+3 _WDTH 0
+3 _HGHT 0
+2 TITL EndNote X8 Manual
+1 _OID 068c55fd-a9b9-40ee-bbf2-9151ef1fc663
+1 _CREA 2017-09-02 10:03:31.544
+1 _USER ZJbmfkrYM9EhSnBRC8LdYAKC9UYGb+zjDqtedKKfc3LtCth52TEdn/QSe2c0syIzZloXx6xpgH6rjaL51TFu6w==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O4@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 22497
+3 _WDTH 179
+3 _HGHT 233
+2 TITL yonghui zhi
+1 _OID 08136801-0b58-4298-a9b2-ae0bac72ab7b
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2018-10-23 21:57:06.938
+1 _USER EcXh0OghWO6lt2n2pNqz6PxjmcGzgeFGT6s5dEUKg82bw045nBC8SlW3J5u3t3DCRZ2lghEBgCn4OFRdITnycQ==
+2 _ENCR 1
+1 _CLON
+2 _TID 80252657
+2 _PID 44468298890
+2 _OID 4741d86d-39aa-4fc4-b408-e8382633104f
+2 _USER aJbYdS/hVGPoYpqAPUmJwGblsa9DYZifWiHtUyzbNjdFwuDIFNqebMn7MFkoUkxEFQ+H5qSGiKNssau8pMIo3Q==
+3 _ENCR 1
+2 _DATE 2015-08-15 20:54:40.000
+1 _ORIG u
+1 _ATL N
+0 @O5@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 115927
+3 _WDTH 718
+3 _HGHT 538
+2 TITL WP_002150
+1 _OID 08afff73-bbd8-4e79-a905-76af52fdb35e
+1 DATE 6/7/2012
+1 PLAC shenzhen
+1 _DSCR to garden with kid
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2015-07-10 12:49:18.370
+1 _USER UmAH8oX9XsoDBKpLuysp9YPZBpkIDyUDn1qEq+xcFtPkTWc5wFbl2vWsFnlx6jw0EpcNv1ul0o2+Y0boKzNpbw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O6@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 33894
+3 _WDTH 350
+3 _HGHT 300
+2 TITL 0119-13-2-m
+1 _OID 0a0a9462-95ab-4129-839b-e5779aa307b1
+1 _CREA 2017-09-02 11:30:39.507
+1 _USER xoGwCWhaqRf2YCxkaSlAMqc+1t0K/ZGzvonObrmhtHTTPWByPxIVq1hW/ZhVHsozvzki5v5IGtEXK98rxI2QBQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O7@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 71938
+3 _WDTH 400
+3 _HGHT 498
+2 TITL 0726-09-M-287
+1 _OID 0ba736df-5ea9-4220-9664-3518e8883227
+1 _CREA 2017-09-02 11:19:51.735
+1 _USER Bx88fWm5RsNc4itLJlBcsVhRunc6MScnjptAaJXRg1mx/g83QGcP/p1TqafkPKdQvEsrYEi2wmrX+mn6rH3HMw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O8@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 260595
+3 _WDTH 894
+3 _HGHT 1171
+2 TITL sisIMG_5706-sis
+1 _OID 0ef57954-3b02-469a-96de-80aad38c3e55
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:02:06.403
+1 _USER XsvuXGiin9ysTZrVoylgpmc65v8cvnAQF8Ky/CDJaWS/Yz9uHghrDGTH6WZNkR2T0kcdE8SB2jg7soJ0rqYhGw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O9@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 38124
+3 _WDTH 264
+3 _HGHT 347
+2 TITL 50e4da65264fa4bb7899797a244446e9
+1 _OID 130ac04a-bfa0-4c32-8939-366bb7b0b282
+1 DATE 26sep2014
+1 _CREA 2017-09-02 11:19:50.568
+1 _USER 87jGQKAwys1BsfSOx4L0g5APsjlECvY46EUrUVfnOqu0cp5f3Hed6hzzxPhiwKqn1OxkC4RhB8WnKSRzybuM6Q==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O10@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 21615
+3 _WDTH 285
+3 _HGHT 209
+2 TITL 0119-13-4-T
+1 _OID 1409639a-a694-460b-aae9-2b5cbad824bd
+1 _CREA 2017-09-02 11:30:39.806
+1 _USER ACu/HsPR4/X+B7CgI0E4huYoHqrrTarqAajJHNO+bjIT6VT70nFiwVlATrZdjQKDanTB/bfp26G+aC8EewqmxA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O11@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 107291
+3 _WDTH 576
+3 _HGHT 446
+2 TITL Bullet 01
+1 _OID 18ba6604-e028-44f4-b67b-15e2bd8275e0
+1 DATE 05 Mon 2016
+1 PLAC jinganqu, shanghai
+1 _DSCR half bullet
+1 _CREA 2016-05-05 09:50:08.513
+1 _USER 1tjCTnB57L0wx2FRarjAUl6wguoyJGVObMtuTisGkq4YFxc1VGQY6sMsow+5RI37T9qLCevg+WSPknY3C619qg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O12@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE headstone
+3 _STYPE png
+3 _SIZE 347873
+3 _WDTH 650
+3 _HGHT 406
+2 TITL 5155cdb6b3389f4cffe64428ec1086c0
+1 _OID 1934e63c-ea4c-4098-bf67-9546b74e8070
+1 _META <metadataxml><personas><persona><pname></pname><bdate></bdate><bplace></bplace><ddate></ddate><dplace></dplace></persona></personas></metadataxml>
+1 _CREA 2016-05-05 10:17:39.063
+1 _USER ZSbWKVp2cwzwkkrd5tMXPGfiOC6eQyhl563enEtPzU5SduyooHd0cnSfsNL9p+3KK3GWM9o/pzHvsEG4cF6ysg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O13@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 370775
+3 _WDTH 875
+3 _HGHT 1115
+2 TITL guofengWP_003291
+1 _OID 1a421fc2-cf55-4f01-a6ea-1f63e2759bd0
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:10:06.093
+1 _USER BRaLh/xNbpFbQlLmlDqdd5ihyh17j0BsEhD1CRjsR4pQR0stuLFC0Ib4JmR7Kj71q8Fdu4pujQmP32rzyD0Otw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O14@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 1561607
+3 _WDTH 2848
+3 _HGHT 2221
+2 TITL IMG_0420
+1 _OID 1d93f6d1-d678-4897-8309-e3e9ec805256
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2015-07-20 12:36:34.037
+1 _USER tELt7VemRFK3z6VObf2kUKvPjkq+/ifNcWCVHQP24z488hHqGEJ5xZL2bkOdsHhwSy0mEpt7xDtsFylokZ04Fg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O15@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 2043558
+3 _WDTH 2499
+3 _HGHT 1540
+2 TITL mashina-saksofon-vintazh-devushki
+1 _OID 1dbe7b37-aa0d-4c12-a240-ae93e43ca06c
+1 _CREA 2017-09-02 06:16:02.631
+1 _USER lr9NdUvLt03Y8UBKQsuKiNAslIZj6x0cRIl2g/ggBEXD734+6Y99yrzUwDgVuPWu+cTrCVOQ9Jkd/nrCHJDbkQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O16@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 17414
+3 _WDTH 183
+3 _HGHT 222
+2 TITL demao zhi
+1 _OID 204b4929-9601-437c-b5c3-6861981b3438
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 05:59:36.677
+1 _USER H8Pw5FZbDh6beajyhXI2mw1IwLdQ8w58KdpVdwx56zLB3wcOBs7o3aN2H1zmWg9l5Kh5DjY5Eh9WoR3CYt0f1A==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O17@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 117963
+3 _WDTH 527
+3 _HGHT 663
+2 TITL yunlong2013-06-02 09.48.261231
+1 _OID 23b00bcd-27a5-438a-bae5-58f280fe3fb0
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2015-09-22 10:41:54.677
+1 _USER h2WwohnVjik6uMUIDFq05m1zDvJUBtgGD/rEE5IIJ1kApJnYtsEQAdKSm2rXIDpkrUxu9ryfeukGOwrRnnBBFQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O18@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 1005305
+3 _WDTH 2048
+3 _HGHT 1475
+2 TITL 172267
+1 _OID 2ae2eac7-136a-4824-b80b-9633db3dbafd
+1 _CREA 2017-09-02 06:15:59.019
+1 _USER uqDelbmBzRDK4WN8MHxWOG96Q4zYJb0JrT7BW1fbx2bUH6N9u18VH9L1VY1p58QxJaVQ8zr880vKRslHWUmmTA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O19@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 45425
+3 _WDTH 600
+3 _HGHT 345
+2 TITL 0831-287-L
+1 _OID 2cdc3dcc-2458-45eb-aa23-e80ced1e0699
+1 _CREA 2017-09-02 11:19:52.731
+1 _USER e+46t9aZP4hRXjRivG16qOdIVDjPKlzgiG2ZLROjf+mVlKf8t8oVrNv21/RqgjfH1cT5gxAAJfIsT0LoAiT1Vg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O20@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 394054
+3 _WDTH 1121
+3 _HGHT 1319
+2 TITL xiaoweiIMG_5703-cao2
+1 _OID 32e08539-c0a9-498f-b9e1-12736a6e3aa4
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:12:53.877
+1 _USER pi6JGdUgqCTCOFd2Mq7bMM0BVTTSirb7ygRkCk1/fjllesqmEyeAXnAMU0mVTVDxiMNpAmMStOUmCFxk+BVYRw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O21@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 43511
+3 _WDTH 361
+3 _HGHT 350
+2 TITL baofengwife
+1 _OID 3cce0ded-3d37-407c-a4da-f3a8615af71c
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:17:12.183
+1 _USER ZsJQ8EtAk9kTUKKKpPZukwK9y2Fmca8baLVAHASj6oZbMCJ0i+Fmb6H6TH/8+cKlx7TyoGgKUigXj0gLvEKRQg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O22@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 30677
+3 _WDTH 303
+3 _HGHT 264
+2 TITL xiaomei zhi
+1 _OID 3d17087f-a2c2-47b2-b6fe-8f8d45c1ed0c
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-02 12:35:43.660
+1 _USER T2rsoty+A0Pf+e+FtMl1zeMRRSdiUz9VBBrWP3wZ+mbr8a3kjAVL/y+cmjQukSiJkwo7mVKLtgsdbI6rGNHF8Q==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O23@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 22840
+3 _WDTH 600
+3 _HGHT 305
+2 TITL 0913-A-2-1-L
+1 _OID 3df46309-93f0-40df-87d7-8cd8201564ba
+1 _CREA 2017-09-02 11:30:43.622
+1 _USER V/AYuB/hynMuBwDt6auxJ8PDMQCw/nfai/OoJ5uK62sbu+wffVr7yzUVYciiWI9iynxd7U8jHL1ocylbOTSwbg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O24@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 85816
+3 _WDTH 600
+3 _HGHT 408
+2 TITL 1010-W-1-2-L
+1 _OID 435cca40-80ed-475d-9d8f-aa8e449553ea
+1 _CREA 2017-09-02 11:30:44.926
+1 _USER Hsvn+msRStsrz02Ev8HZ1pXiICt3nM6bg3tfOqKiAJeYtvi0Q+H2KU8Q4yh4DPwV9C4yHzdU62zIUSBu55EWiw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O25@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 1076464
+3 _WDTH 2560
+3 _HGHT 1707
+2 TITL 169122
+1 _OID 45c6b02d-d664-40a6-90fb-c4c3ebc65711
+1 _CREA 2017-09-02 06:14:49.552
+1 _USER bFEbcmqzFrXTnZmQ+acMJ+JOwi82q8q6+919fpJfVYPfWVauLnOEWcS86kHHZK0UKuzb1T00GF1QAvda/PpTbg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O26@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 53689
+3 _WDTH 700
+3 _HGHT 433
+2 TITL 3c2583e4-df62-48d2-9527-3b3af0b19ef6
+1 _OID 45f34ed0-b29a-4668-b313-2854ea43fda8
+1 DATE 01 Mon 2005
+1 PLAC sport yard
+1 _DSCR no head woman
+1 _CREA 2016-05-05 09:50:06.870
+1 _USER ULA0XAFQyyvxypRcSdm6xUmikEuhpWQKhQWNphe8iA7C78kNYMNwdRP0jplO9TTottw2yx4k8GFwri2PVwaCSA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O27@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE place
+3 _STYPE jpeg
+3 _SIZE 90570
+3 _WDTH 600
+3 _HGHT 389
+2 TITL Cat and Tiger
+1 _OID 45fb6b27-9468-4f0c-bfc8-cc22bab1154c
+1 DATE 08 Jan 2008
+1 PLAC home
+1 _DSCR cat
+1 _CREA 2016-05-05 09:50:07.720
+1 _USER MmqkuAoO+QLVEfIU1L9hTCH5oZrw+Rklg40hKkbSzhqCEVVQkqB+h6XRfTS1dh1yPrAsicCC2kE/vU/5gcto+Q==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O28@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 99157
+3 _WDTH 1200
+3 _HGHT 1240
+2 TITL a shadow of woman
+1 _OID 4a96ecba-b692-49b6-984d-48a64248877c
+1 DATE 05 Nov 2009
+1 PLAC Hongkong
+1 _DSCR Shadow
+1 _CREA 2016-05-05 09:50:21.827
+1 _USER k7npbYsi9H9VDiNL6bzOYbChGw5tR/laDTt3SIsEh15zdQS66IS0+PRhH6Q9rxgNV5pVeYa7TPlilkwIfO+84w==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O29@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 124140
+3 _WDTH 600
+3 _HGHT 396
+2 TITL 0802-287-L-kyodo
+1 _OID 4ba49545-cde3-47d7-9c1a-bee89e708483
+1 _CREA 2017-09-02 11:19:51.528
+1 _USER 761OAfdDCbiatJjaApoSJI2nXkn1vC4Fz9fMb+s6NTUpOSc2AGpkCJOZzPsQPT5RBNxyBVJwajeQ7A4rzv9xVg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O30@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 16424
+3 _WDTH 195
+3 _HGHT 207
+2 TITL enhanced-buzz-5209-1415728323-32-9
+1 _OID 516bcec9-cd4a-44a0-98a0-0301283f0a32
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:08:29.887
+1 _USER P5AQDPEhwyhfUq8k3fcjSoGK0O+mQIQB+a9edojwyTjWk+qyjwSAt9jaLWby1+5u8QmEWJwj2DuB+sDA+rEueQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O31@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 23284
+3 _WDTH 285
+3 _HGHT 209
+2 TITL 0119-13-3-T
+1 _OID 5932f456-0075-4c56-b862-5a6741921772
+1 _CREA 2017-09-02 11:30:40.405
+1 _USER HajWoznDKnAYQJPhtDZQtEoWvQ6h92eQWYZHT5SmuGhUDs/uGIjZuJK0E619IBSkXD400or/MzkJQrzpCyxOlA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O32@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 149118
+3 _WDTH 600
+3 _HGHT 600
+2 TITL 1010-W-1-6-L
+1 _OID 5cbb44a0-2234-46fc-8dfa-235d06163545
+1 _CREA 2017-09-02 11:30:45.039
+1 _USER +DoXWxbMiAwJRb4d47/7lcrJxoK1EZjTH8od7YcRPhog7LRgEgyiq7esGpT7+iIv404GY4IqMLJy67OWuXI/eQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O33@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE place
+3 _STYPE jpeg
+3 _SIZE 116675
+3 _WDTH 576
+3 _HGHT 432
+2 TITL Bullet 10
+1 _OID 5f6cc20c-c3ec-44f6-8f45-8b20f4d6f7bd
+1 DATE 10 Mon 2009
+1 PLAC Man City, England
+1 _DSCR Bullet half
+1 _CREA 2016-05-05 09:50:15.593
+1 _USER mkA8UOlCOzFU3izcZkQQk3sf0Ih+vIQAi0BGidmnZMiAueqLdQay9mYWL4M9682BXAwaAO+eAZpI26SgxdjSCg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O34@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 1568402
+3 _WDTH 3072
+3 _HGHT 2304
+2 TITL IMG_0518
+1 _OID 6d258a62-ed8a-4ba8-8562-f0256b056358
+1 DATE 5/8/2010
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2015-07-20 12:36:33.603
+1 _USER gkb7y2P447mZ8yUETLAn4sGDmmb88ABk2VBwVNysPKSABapdfXAZlkOA1Nw+rT56ZRFSstA2pyxHnaDJLcJchg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O35@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 73071
+3 _WDTH 300
+3 _HGHT 401
+2 TITL 0310-A-2-m
+1 _OID 6e9007d8-3d4b-428c-94b1-4dfc41028347
+1 _CREA 2017-09-02 11:30:41.963
+1 _USER WGrSzHkK4rDza21mTbrgZeVl+XZxcjLEsvm8UDKl0pGi9EvIpsI5WyULmK6ADweak0AmvPNg7/jxuw4+jGAVPw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O36@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 338910
+3 _WDTH 969
+3 _HGHT 1045
+2 TITL sanhong2010-02-19 12.56.08234
+1 _OID 768367a2-38c9-4f6a-a296-755ac352b25c
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 05:58:43.957
+1 _USER xn7yF106zCHFD0dMWlcVGG8MAiAr6Vi/kvGZpZgf1uXpg/TftpYdsaaz/9rfBbVPUt8zCUpmYhtgE1W9J1S2jQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O37@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE gif
+3 _SIZE 14004314
+3 _WDTH 600
+3 _HGHT 340
+2 TITL ezgif.com-video-to112-gif
+1 _OID 7abeb292-a763-4e01-bb54-27bfba683efa
+1 _CREA 2017-09-02 11:08:22.626
+1 _USER ojtk8AtG30h29Vnn98NaEYRo3lc5Dqc6G/p12LRhvsZP6jU349gyAD4zS502hpKWsJftovBOWTyLUuZYO4tfnA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O38@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 101912
+3 _WDTH 672
+3 _HGHT 745
+2 TITL baofeng
+1 _OID 7cf430a8-6a9f-46db-9e2a-8e182e7e8472
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2019-05-06 10:44:31.000
+1 _USER /6rzTOwgcp5FHQmwpaNFC3VUmH0ryqnBA6B+m8wrg/qS6gv214NUZcX14y0pfaTq81fz8DmTldaS0L0N2CSIig==
+2 _ENCR 1
+1 _CLON
+2 _TID 80252657
+2 _PID 44468299458
+2 _OID dbd96136-0f70-4681-9d4b-37928420969a
+2 _USER Zyx6G03r/YJ3vZ4Mk2vRzmwWqPcAN/O8EFGoZUNpojWfigJfJNdNUPYYtXN7e/HQG/+SUVaj89EL5nICbOlunQ==
+3 _ENCR 1
+2 _DATE 2015-08-14 19:29:59.000
+1 _ORIG u
+1 _ATL N
+0 @O39@ OBJE
+1 FILE
+2 FORM doc
+3 TYPE story
+3 _MTYPE story
+3 _STYPE msword
+3 _SIZE 104960
+2 TITL 网络变互式数字电视机顶盒硬件平台设计
+1 _OID 7f9854e3-d667-4988-9f51-f73c57c0f89e
+1 _META <metadataxml />
+1 _CREA 2015-07-17 12:25:27.280
+1 _USER IzDr/RvZTYSnWcrYwFGxXZo9hAGw1lELo6/oobtEeP/znWIUqYOAN6JAnfUWKlq/kXBA24g0VjQfp6Zt8K6dIQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O40@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 514959
+3 _WDTH 1920
+3 _HGHT 1080
+2 TITL 168490
+1 _OID 87ca31d1-b5b0-4256-a532-2152695fe62e
+1 _CREA 2017-09-02 06:11:49.525
+1 _USER W+wY9uBmjOKCYGlQBwmZ/71NS/zRtUtoFi3f2OV5giB6P8wpoodGytG/WO9dERoa7a2qras4SkNh0gGYyVAICg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O41@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 32643
+3 _WDTH 217
+3 _HGHT 299
+2 TITL 2wa zhi
+1 _OID 87fdd1e1-3ebf-43f9-8157-b299392f74b0
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:18:55.670
+1 _USER rBax+9e/6EBoYDr9fLL0p84+l3jGId+WOkab66zRH1szIBx8k1Ex/6QC5xEdq+545ukWokD6xRhCPrqlJIsW/A==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O42@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 3558728
+3 _WDTH 4128
+3 _HGHT 3096
+2 TITL 2013-01-13 16.59.18-
+1 _OID 895791ea-8327-49d9-a1d0-45cf2b2fc309
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2015-07-20 12:37:04.020
+1 _USER NEVed+EEBptfFoM5yg+PqsQDejIQa/B9kvSsQlN8mxirf2DYyhQI/tq+lPDTa8/tnMD18MLnxGp3IW+8Uoti0w==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O43@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 25476
+3 _WDTH 209
+3 _HGHT 291
+2 TITL 96f9450b584fd5324ef8d61995031cc9-1
+1 _OID 911f041f-4b33-4957-bc3b-06a8c043733c
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:16:33.247
+1 _USER Pwy7L0uIVsfQDdG+xWrYMUW+FefJGKMYwD1Z1VTabufepetO+1UxvTxG35oCZ+dyT5tBvlYmCqkUZa2MEY2NJw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O44@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 121859
+3 _WDTH 441
+3 _HGHT 611
+2 TITL lily-james-cinderella-olivier-awards-026
+1 _OID 9be6b1d3-3b3f-4ebb-adca-12138b873251
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:09:23.453
+1 _USER pn3rFZnK/BfRImdA3QmB4EI5vgmOAhUzxe7NDFzeNvfJm1c77mgPu9RNrbe0jUfo69U22JMCagLwKt7uR/nMqQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O45@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 28879
+3 _WDTH 218
+3 _HGHT 293
+2 TITL shengfu zhi
+1 _OID 9cc0262c-9381-4e46-b032-46b88e3c889a
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:01:16.483
+1 _USER YIfan2z4mW7uvC3I8TiLEZLk4cce2PZoqjHCSWURn6pOpX7lxV1qF8yAWUXNMPki9rfcFbRDzF1HNejO/sXmQA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O46@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 33364
+3 _WDTH 250
+3 _HGHT 281
+2 TITL 0406-A-1-3-M
+1 _OID 9d6cc935-5dce-4ea0-a640-cdadf91b4359
+1 _CREA 2017-09-02 11:30:41.759
+1 _USER 13HxuAw6iV48V8tEULADBD/991yDdqH1bfEZVg1TbR0OOa+ORwe+ruKfsw8rVlAHG+EJ+C8EKxPfxQDCZUbDiA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O47@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 25483
+3 _WDTH 347
+3 _HGHT 362
+2 TITL bd1147de8a1186dec26dc01cf17b47fd
+1 _OID a0acd82c-20e7-44f7-a103-4fbb731a4ae6
+1 _CREA 2017-09-02 11:19:53.532
+1 _USER JP9Qrkjo2yq9GH6xywV/f2buEuNUBuzQ3g8BKBuOHegwyFFamA+uha+U+Mj4YqExoabF/wGcIzXhm6Z6z2uxBQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O48@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 42181
+3 _WDTH 250
+3 _HGHT 336
+2 TITL 0406-A-1-4-M
+1 _OID a25479e4-c547-4754-8c9e-cd9d7bd37daf
+1 _CREA 2017-09-02 11:30:41.624
+1 _USER aviSTcwdrIt33LNbgF3Tn132WK20cNWVPHIVbqM1xCazmtwvHEZuJ/jT0taGbftsPF02jGSmwDf6k3z9Dr1zwA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O49@ OBJE
+1 FILE
+2 FORM doc
+3 TYPE story
+3 _MTYPE story
+3 _STYPE msword
+3 _SIZE 215040
+2 TITL 679EDAC311C144588306DE11E1E76AF9
+1 _OID a69b179f-cc7e-46bd-ab8c-5ab3f14213d7
+1 _META <metadataxml />
+1 _CREA 2015-07-17 09:30:52.117
+1 _USER CsZRjZxT40m7ZVe+oj+WGIv9XUmvy6PbT7Dj/x3ZFcc3L6wjMb5zhPGIxUIvqqy3pM3ccWlWlmWWJZSFScZi4g==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O50@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE document
+3 _STYPE jpeg
+3 _SIZE 125747
+3 _WDTH 743
+3 _HGHT 1100
+2 TITL 4f412773077fc703d89aaa9f43e65e06111
+1 _OID a9edc79a-b08f-4a7e-8968-5e63df4beae1
+1 _META <metadataxml><transcription></transcription></metadataxml>
+1 _CREA 2016-05-05 10:17:34.420
+1 _USER fWBbvA5AG6F8PoD/aIQecXb+x5X7P9QFK7+YauQNaSadLsYAkp9x5dymakRI03nMiaRnEHKpAxNjISwMX2iKcw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O51@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 1355552
+3 _WDTH 2048
+3 _HGHT 1365
+2 TITL levitation-over-ocean-red
+1 _OID aa002b50-4f6a-4cfe-898b-efbb91097528
+1 _CREA 2017-09-02 06:16:05.334
+1 _USER udWCJab53QL4ysClkb/yjq+uGb21O0+6v9HPMAeqOONNeOXPxv6+HLK9aQgXXYsu43HLTHZs1Sv/RDi/TRWVSg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O52@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 136806
+3 _WDTH 632
+3 _HGHT 756
+2 TITL daweeiIMG_5685-dawei
+1 _OID ab8b9028-c2de-44d5-889b-f5f3668a9513
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:13:35.060
+1 _USER 15eFpln76swRulYWppsRplc7AfoIBNTk8Ko+lhUazI3VaLn9UNyULtGwsLGpxE9sxXcc4lJfMWlX/7NTmn9dcA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O53@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 312717
+3 _WDTH 834
+3 _HGHT 953
+2 TITL leyan342
+1 _OID ad577aa0-c877-4419-ad8a-aac400a273f9
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:11:02.470
+1 _USER kweVv1SZ1sJjzNbFRAYh3HyvK0PqBeYC9GxxRvCGqjKsPI2y8v7+UQCnMBlISDXfN9Eg25pWbdMPHUP4tCY1ng==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O54@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 81572
+3 _WDTH 600
+3 _HGHT 524
+2 TITL 0829-15-L13
+1 _OID b02d3bc2-d97e-4c31-981e-abbd4755d2a4
+1 _CREA 2017-09-02 11:19:52.110
+1 _USER alMdUVUgnZk8n/7M9/hIG1eJn2nXgfifAfz60urHD28nIf9mlXd5qKMeG/lHUjZgC7B6jlN+Kb0rGDOxTdtZGA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O55@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 124140
+3 _WDTH 600
+3 _HGHT 396
+2 TITL 0802-287-L-kyodo123
+1 _OID b9b16ac2-8a25-44ac-aab0-320c1f4f804a
+1 _CREA 2017-09-02 11:30:43.070
+1 _USER hmsTZMvLRkw4ERBJspnoDCwUZYaTqSI3AVYdRoie5swX92U9Crcmx+BtdMcM4LmoDLGKjo4Cpg27vS92Hx5jMA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O56@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE png
+3 _SIZE 116697
+3 _WDTH 258
+3 _HGHT 314
+2 TITL Huangshi yan
+1 _OID bf8a9a43-33ff-4776-85c8-f318e4b13c70
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:03:44.283
+1 _USER xMlvEuHEUJFU+JiPCjQRPt3QxoIXzuyKm6F4aHmTaACsNsSECglQgk0MtmFhJnQwbTsVhm3uZVO7dUwhaKEoag==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O57@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE document
+3 _STYPE jpeg
+3 _SIZE 28409
+3 _WDTH 600
+3 _HGHT 417
+2 TITL 1723720_576179169150869_6014901850351506688_n
+1 _OID c0e92e91-c6e0-4f85-ae5c-abd3e2bf6a29
+1 _META <metadataxml><transcription></transcription></metadataxml>
+1 _CREA 2016-05-05 10:17:31.833
+1 _USER Sd/9znwZyQw5Xirqz9mmSCPGd+3csRM8jNvymwLrWbgpWQOKW1QdLXO0x1UAyiPVuOwRlowhpCqv8+wfsSA+Ew==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O58@ OBJE
+1 FILE
+2 FORM doc
+3 TYPE story
+3 _MTYPE story
+3 _STYPE msword
+3 _SIZE 3578880
+2 TITL A10 EVB Changelog
+1 _OID c52de189-a329-4317-85e6-da5712bf3a9c
+1 _META <metadataxml />
+1 _CREA 2015-07-17 09:34:15.630
+1 _USER DqYEeK4fo6zNcFMrjNam416H0SodhG/NSR5mNPT2tZkwEXgEM8npHRixeDM9m+ZV8yvaHwAi2JDU7penxDoNOQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O59@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 1331905
+3 _WDTH 2215
+3 _HGHT 1802
+2 TITL br1 and his family
+1 _OID c9e17be1-ae2c-4c47-b19d-bb6c5d58169c
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:11:52.890
+1 _USER v+ySTdc/3+TqnbFY2dQrNubTm5yhSNIe7Z7GTd6TvvjDAWTbsaZqRtFSeEH81QvWUCAP8s1xPtQFzOIRH7QEgA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O60@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 43392
+3 _WDTH 1137
+3 _HGHT 632
+2 TITL beingalone
+1 _OID d07816b0-4caf-457b-a8b2-dd2b0f08a728
+1 DATE 10 Sept 1996
+1 PLAC London
+1 _DSCR a teacher
+1 _CREA 2016-05-05 09:50:18.890
+1 _USER C+Jx1kgGaFr88krVcZiGtTPp0m0fRp8c3Q+djByX5igfrXPbYDqtuESuCbA3ACE4QLRUKuFo7tvMsFRipJtEAQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O61@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 110077
+3 _WDTH 600
+3 _HGHT 412
+2 TITL 0901-287-1-LL-kyodo
+1 _OID d27e5bfd-2b5d-482a-91fc-2798b3276a1e
+1 _CREA 2017-09-02 11:19:53.228
+1 _USER ooPm1eLhdu7De8RIsBLJfMu/e93v78Wi4gtje/tcB+EGlLDSl2XHPmT5ZAy+8sGpbcSqKwtta7t1RQmqP1qzjg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O62@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 20783
+3 _WDTH 181
+3 _HGHT 304
+2 TITL 0913-A-2-3-m
+1 _OID d44bd587-6086-4ca4-8828-b4a5b958422e
+1 _CREA 2017-09-02 11:30:44.314
+1 _USER dRkSMaUtsf9PHfWqg2D5rXdssiFLfFXIt/X5hms6dyEJl9PsV5Krd2LBtrAoywXkqZhsD7Q+ilI/FJNG3x/78Q==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O63@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 1002490
+3 _WDTH 2048
+3 _HGHT 1368
+2 TITL 147459
+1 _OID d4cea338-cc4c-4d83-ba99-a144872fdd32
+1 DATE 300072012
+1 PLAC canada
+1 _DSCR depresssion
+1 _CREA 2017-09-02 06:11:50.700
+1 _USER WWZKf7Uy8Oo33XYAfKc8f/hHkBYoe6AVs5rRu49hBQdVql6rT7MBxorDaMiLd4dYtvvpxt4109OxiBUebQxUtw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O64@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 206316
+3 _WDTH 1024
+3 _HGHT 683
+2 TITL 20141130-CINQUE-slide-S7CZ-jumbo
+1 _OID d4ec369d-027f-4dae-810a-48e11821c2ca
+1 _CREA 2016-05-05 10:17:42.293
+1 _USER MjPYjU6LylB7bKXf2FxO14SB7d54E16kW6ySSR9o5akQEhjkXvRgS5LbfUDB8wefnb/YUxrzUFUh6f+gNbi9ug==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O65@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE document
+3 _STYPE jpeg
+3 _SIZE 151065
+3 _WDTH 576
+3 _HGHT 576
+2 TITL Bullet 07
+1 _OID d56687e8-b83c-4517-bceb-97e577f6d1fd
+1 DATE 09 May 2010
+1 PLAC lab
+1 _DSCR half bullet
+1 _META <metadataxml><transcription>Cut bullet to half</transcription></metadataxml>
+1 _CREA 2016-05-05 09:50:12.010
+1 _USER xo54qJCzSHZ6dp4s0t+nByAKIHxYXYZ0rP6zn/ywEOAnIrF7F9lRmK0h8Ax1d05niAi6l92bBiiPFfzSN565zg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O66@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 356852
+3 _WDTH 1920
+3 _HGHT 1080
+2 TITL nataliaoreiro_terma7
+1 _OID d786319d-2435-4a1d-8535-d8bfb9674c7d
+1 _CREA 2017-09-02 06:16:02.738
+1 _USER qPd90bpU+pSkRUB+Ar0FSygIXpfM4oUuHoheKZvcuMpIdBWgvSuIiUNJPbcXKXeuq2idWVW5SzFfe3Pp9aT+ng==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O67@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 1349016
+3 _WDTH 2557
+3 _HGHT 2175
+2 TITL IMG_0413
+1 _OID d80f8dfc-3f3e-4a2b-b075-21fa4d353488
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2015-07-20 12:36:42.383
+1 _USER g4KfMhMkKiHfVPsuf03LPu0uclhthEz1UyMWZh86TbfoMKYqpcLLQ1Olh4OxupOSfi4gO4uSwchxDhKrj2Ndsw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O68@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 103426
+3 _WDTH 600
+3 _HGHT 456
+2 TITL 0901-287-2-L-kyodo
+1 _OID d8c63233-5b0a-46a1-9663-fbe507fc11d5
+1 _CREA 2017-09-02 11:19:53.215
+1 _USER ielnt3VYKjwESscavoNKItaNfdl92M1FDbTKdrLr1ZjkWn2geQIFPwPjmMj3czXuwF4/JCn77KBMRyaLcIhZSw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O69@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 181857
+3 _WDTH 592
+3 _HGHT 804
+2 TITL walking-excursion-outdoors - 720P
+1 _OID d8dda4c9-f9c5-4bfe-ac8c-3262847b40ed
+1 _CREA 2017-09-02 06:16:04.193
+1 _USER wEZ0QuDWYsmkqYzwxNOv4xDxGadkpUMm04APYnnhyMkEq98cpxtDpWNBYM8/1zUdz1cdTfdjPZDXSsyneL+dhw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O70@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE headstone
+3 _STYPE jpeg
+3 _SIZE 430427
+3 _WDTH 594
+3 _HGHT 443
+2 TITL littleboy headstone
+1 _OID d9c06dd5-bbd9-4977-9231-fc534c54b6f9
+1 DATE 10 Oct 2010
+1 PLAC Yard
+1 _DSCR My country yard
+1 _META <metadataxml><cemetery>His mom: a loundry woman</cemetery><personas><persona><pname>a little boy undre on loop</pname><bdate>10 Jan 2000</bdate><bplace>chaoyang, beijing</bplace><ddate>05 May 2012</ddate><dplace>shenzhen, guangdong</dplace></person
+2 CONC a></personas></metadataxml>
+1 _CREA 2016-05-05 09:50:20.777
+1 _USER uAAzlUvRbvqSFw4fFz7tXVnK3hZdY0aRl9tBvWM+MRfxB+vIfIQIbchZrEc3JYcc+VGrU7xIOeCWeZtH9SuJWg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O71@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 35678
+3 _WDTH 264
+3 _HGHT 347
+2 TITL c37d63674c922e851e14151d839060f3
+1 _OID db26d930-a4e2-4708-903a-86ca5efaec8d
+1 _CREA 2017-09-02 11:19:54.311
+1 _USER R6rU51U9ulm2nBReGuWDQFfLqsCUyZxeFu2khrvaxEDKHv6QztToT79S9msb+8wLdqENiWLYKnXosRuLm6Ow7Q==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O72@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 35647
+3 _WDTH 600
+3 _HGHT 624
+2 TITL a7272cae-be8a-4666-9e16-36be16b1b8fd
+1 _OID dbe92b34-a6af-45b8-91c5-1c14bf99d860
+1 _CREA 2016-05-05 10:17:41.337
+1 _USER uR5+Vj6NzE/k7C1sZpJ5uyWOdTWTBikDEaEchpUg0P3Du1VzVtI/fy9UsRArBzaeQ3N35cddBw6DG9sT3V0atQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O73@ OBJE
+1 FILE
+2 FORM
+3 TYPE story
+3 _MTYPE story
+3 _STYPE x-inline
+3 _SIZE 226
+2 TITL This is my frist story
+1 _OID ddf443c4-8377-4e10-85a6-9217fb91606e
+1 DATE 12/12/1945
+1 PLAC universeral
+1 _DSCR this is a description
+1 _META <metadataxml><content><line>&lt;p&gt;&lt;span style="font-size: large; font-family: arial black,avant garde;"&gt;This is a just test. none useless.&lt;/span&gt;&lt;/p&gt;</line><line>&lt;p&gt;&lt;span style="font-size: large; font-family: arial bla
+2 CONC ck,avant garde;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</line><line>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: pr
+2 CONC oxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align
+2 CONC : start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;&lt;strong style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; font
+2 CONC -family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-weight: bold;"&gt;Shanghai:&lt;/strong&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Smartphones are on track to account for two-thirds of mobile connections in China by th
+2 CONC e end of this year, according to a new study published today by GSMA Intelligence, the research arm of the GSMA. The new study, &amp;lsquo;How 4G Devices in China Are Transforming the World&amp;rsquo;s Largest Mobile Market&amp;rsquo;, finds that s
+2 CONC martphone adoption in the country (as a percentage of connections) had reached 62 per cent by the end of Q1 2015, above the average level in Europe (55 per cent).&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoratio
+2 CONC n: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: nor
+2 CONC mal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;The rapid adoption of smartphone
+2 CONC s across urban areas in China has been fuelled by the increasing popularity of both international device brands, such as Apple&amp;rsquo;s iPhone, and devices produced by a growing number of domestic smartphone vendors. 4G models are now the primar
+2 CONC y driver of smartphone sales, which is accelerating China&amp;rsquo;s migration from 3G to 4G networks.&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #33333
+2 CONC 3; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans
+2 CONC : auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;&amp;ldquo;Almost half of the Chinese population now account for China&amp;rsquo;s 1.3 bill
+2 CONC ion mobile connections and 62 per cent of these connections are smartphones,&amp;rdquo; said Hyunmi Yang, Chief Strategy Officer at the GSMA. &amp;ldquo;Our study published today reveals a vibrant domestic device market that has established the sma
+2 CONC rtphone as a lifestyle hub and digital platform for millions of Chinese citizens &amp;ndash; with large-scale investments in 4G networks by Chinese mobile operators triggering a new era of growth.&amp;rdquo;&lt;/p&gt;</line><line>&lt;p style="margi
+2 CONC n: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.214050292
+2 CONC 9688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width
+2 CONC : 0px;"&gt;&lt;strong style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-weight: bold;"&gt;Smartphones Transforming C
+2 CONC hina&amp;rsquo;s 4G Market&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;br style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased;"&gt;According to GSMA Intelligence, there were 672 million unique mobil
+2 CONC e subscribers&lt;sup style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; vertical-align: ;"&gt;1&lt;/sup&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;in China in Q1 2015, accounting for 48 per cent of the populati
+2 CONC on. Smartphones accounted for 805 million (62 per cent) of China&amp;rsquo;s 1.3 billion mobile connections in Q1 2015, a figure predicted to reach 913 million (68 per cent) by the end of the year. However, growth in smartphone connections has slow
+2 CONC ed in recent quarters as the market matures, suggesting that the majority of current smartphone sales are now being driven by replacements rather than new connections.&amp;nbsp; &amp;nbsp;&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; pa
+2 CONC dding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style
+2 CONC : normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;3G conn
+2 CONC ections in the country have begun to decline as 3G smartphones are replaced with 4G models. The study predicts there will not be any new non-4G models released by Chinese smartphone vendors after 2016, with many having taken this step already. It i
+2 CONC s forecast that 4G connections in China will reach one billion by 2020, representing about two-thirds of the market by this point, up from 100 million (8 per cent) at the end of 2014. Local mobile operators are also driving the move to 4G by subsid
+2 CONC ising the cost of an increasingly wide range of 4G devices via their retail channels.&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: pr
+2 CONC oxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align
+2 CONC : start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;&lt;strong style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; font
+2 CONC -family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-weight: bold;"&gt;The Rise of the Chinese Smartphone Vendors&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;br style="margin: 0px; padding: 0px; text-decorati
+2 CONC on: none; -webkit-font-smoothing: antialiased;"&gt;According to the study, the average price of a smartphone in China is CNY1,100 (US$175). The average price of a smartphone from a domestic Chinese vendor is CNY935 (US$150), almost half the price o
+2 CONC f a smartphone from an international brand at CNY1,765 (US$285). However, the study finds that major Chinese vendors such as Xiaomi and Huawei are increasingly releasing new models that target mid-to high-end market segments.&lt;/p&gt;</line><line>
+2 CONC &lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; wi
+2 CONC dth: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit
+2 CONC -text-stroke-width: 0px;"&gt;Chinese vendors are also producing a greater proportion of 4G smartphones than their international rivals. In Q1 2015, 70 per cent of new handset models released by Chinese vendors supported 4G, compared to the global a
+2 CONC verage of 40 per cent. The average price difference between a Chinese-manufactured 4G smartphone and its 3G equivalent is CNY375 (US$60).&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smo
+2 CONC othing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal
+2 CONC ; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;&amp;ldquo;Chinese smartphone vendors such as Xiaomi, Huaw
+2 CONC ei and Lenovo are benefiting from a rich local smartphone manufacturing and design ecosystem, which is allowing them to compete effectively with foreign smartphone brands such as Apple and Samsung,&amp;rdquo; added Hyunmi Yang. &amp;ldquo;There rem
+2 CONC ains a large market for producing budget smartphones that enable people to connect to the mobile internet for the first time, while the increasing number of affluent customers in China is also fuelling a growing luxury smartphone market.&amp;rdquo;
+2 CONC &lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium
+2 CONC ; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; wor
+2 CONC d-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;The new report &amp;lsquo;How 4G Devices in China Are Transforming the World&amp;rsquo;s Largest Mobile Market&amp;rsquo; is available to GSMA Intelligence subscribers and to accredited members o
+2 CONC f the press on request.&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-s
+2 CONC erif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto
+2 CONC ; word-spacing: 0px; -webkit-text-stroke-width: 0px;" align="center"&gt;-ENDS-&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: proxima_n
+2 CONC ova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start
+2 CONC ; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;&lt;strong style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; font-family
+2 CONC : proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-weight: bold;"&gt;Translation:&lt;/strong&gt;&lt;br style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased;"&gt;Simplified Chinese&lt
+2 CONC ;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; l
+2 CONC ine-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-s
+2 CONC pacing: 0px; -webkit-text-stroke-width: 0px;"&gt;&lt;strong style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-weight
+2 CONC : bold;"&gt;About the GSMA&lt;/strong&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;br style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased;"&gt;The GSMA represents the interests of mobile operators worldwide, un
+2 CONC iting nearly 800 operators with more than 250 companies in the broader mobile ecosystem, including handset and device makers, software companies, equipment providers and Internet companies, as well as organisations in adjacent industry sectors. Th
+2 CONC e GSMA also produces industry-leading events such as Mobile World Congress, Mobile World Congress Shanghai and the Mobile 360 Series conferences.&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-
+2 CONC font-smoothing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight
+2 CONC : normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;For more information, please visit the GSMA corpor
+2 CONC ate website at&lt;span&gt;&amp;nbsp;&lt;/span&gt;www.gsma.com. Follow the GSMA on Twitter:&lt;span&gt;&amp;nbsp;&lt;/span&gt;@@GSMA.&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothin
+2 CONC g: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; lett
+2 CONC er-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;&lt;strong style="margin: 0px; padding: 0px; text-decoration: no
+2 CONC ne; -webkit-font-smoothing: antialiased; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-weight: bold;"&gt;Media Contacts&lt;/strong&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;br style="margin: 0px; padding: 0
+2 CONC px; text-decoration: none; -webkit-font-smoothing: antialiased;"&gt;Brenda Bu (Beijing)&lt;br style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased;"&gt;+8610 8569 9928&lt;br style="margin: 0px; padding: 0px
+2 CONC ; text-decoration: none; -webkit-font-smoothing: antialiased;"&gt;bbu@@webershandwick.com&lt;span id="transmark"&gt;&lt;/span&gt;&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing
+2 CONC : antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; lette
+2 CONC r-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;Vivienne Wu (Beijing)&lt;br style="margin: 0px; padding: 0px; tex
+2 CONC t-decoration: none; -webkit-font-smoothing: antialiased;"&gt;+8610 8569 2395&lt;br style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased;"&gt;vwu3@@webershandwick.com&lt;/p&gt;</line><line>&lt;p style="margin
+2 CONC : 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica, sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929
+2 CONC 688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width
+2 CONC : 0px;"&gt;Ava Lau (Hong Kong)&lt;br style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased;"&gt;+852 2533 9928&lt;br style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased
+2 CONC ;"&gt;alau@@webershandwick.com&lt;/p&gt;</line><line>&lt;p style="margin: 0px 0px 10px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased; color: #333333; font-family: proxima_nova_rgregular, 'trebuchet ms', arial, helvetica
+2 CONC , sans-serif; font-size: medium; line-height: 20px; width: 624.2140502929688px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-s
+2 CONC pace: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;GSMA Press Office&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;br style="margin: 0px; padding: 0px; text-decoration: none; -webkit-font-smoothing: antialiased;"&gt;pressoff
+2 CONC ice@@gsma.com&lt;/p&gt;</line></content></metadataxml>
+1 _CREA 2015-07-17 12:19:09.110
+1 _USER mnda/DHnvTrNDn9MvT/bdOaBhtcyDKIWS2p022HGSvf4Jr8/hyQNNxCfGr19Yq7aDFCUk3QMFioHBTMvAZD/fg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O74@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 122315
+3 _WDTH 570
+3 _HGHT 537
+2 TITL Nantou cui
+1 _OID e1d735a9-0f94-4703-8e07-ae8d7cb46c93
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:00:22.893
+1 _USER McJBzpV3AH29omUiyl9o2pMJsrlLtw8Jlrdr/NcwK8J3Sd8gFDBGQRfqNd1rRmHdhxcpaHhGyeTZXZ6d9vzcCQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O75@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE other
+3 _STYPE jpeg
+3 _SIZE 52535
+3 _WDTH 960
+3 _HGHT 556
+2 TITL John Lennon
+1 _OID e86ba174-07aa-41c0-a0d8-cd6e22c20fb3
+1 DATE 8 Dec 1998
+1 PLAC unknown place
+1 _DSCR John Lennon 1940.10.9 - 1980.12.8
+1 _CREA 2016-05-05 09:50:19.887
+1 _USER +RQ7GBDP2g0zKFRkMYq/aw1O19ReoOsw10y6k7tbQav9Poj9xAJc+nrO2rvHHD5vElMOdI9+UMKaJ5AcuahByw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O76@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 234702
+3 _WDTH 744
+3 _HGHT 897
+2 TITL Dalv zhang
+1 _OID f027428e-6c64-401e-8cb3-24dd40f06762
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:04:37.140
+1 _USER uULZvVnpDrcJtys83yCqR48AiK6z1Ya8kBa/tUvXPZsX5s65G9jtsx5uRR7OZE5ujFk5s/sRcswkkxTsZonzbA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O77@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 98355
+3 _WDTH 718
+3 _HGHT 538
+2 TITL WP_002154
+1 _OID f22b5b48-20e8-42ee-96c4-75cc022b5647
+1 DATE 6/7/2012
+1 PLAC shenzhen
+1 _DSCR To garden with kid
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2015-07-10 12:49:19.690
+1 _USER 63Zg+uD3x7y2WEyfSrqMUNnwE3VakbPUfgegrNZGD+jH5lU8OnFJ2NAh88VS9qkNEnTmC4Lieno1WmyRlxJSZA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O78@ OBJE
+1 FILE
+2 FORM doc
+3 TYPE story
+3 _MTYPE story
+3 _STYPE msword
+3 _SIZE 32256
+2 TITL 企业健康与利润发展自测表
+1 _OID f5ab2744-4b05-458a-adfe-84b56a4e2790
+1 DATE 17/17/2015
+1 PLAC peking
+1 _DSCR just a test doc
+1 _META <metadataxml />
+1 _CREA 2015-07-17 09:39:30.390
+1 _USER CPzrRPrIkLLyiohO3z8K+rkz7oik/ljsxCrNxsVMbEyqRGaL+OGvn4aTlf6d0dEh9fbQ4KsHK91wbF1O5/GFSA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O79@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 113620
+3 _WDTH 494
+3 _HGHT 587
+2 TITL antieIMG_0431-xinminswife
+1 _OID f636cc51-9b2b-4eb8-a25f-d54a898f0b98
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:15:48.787
+1 _USER Ta38wTDKWW/dsR0FxVfUZZzoTduGhRoReOLFXe8a5KzVXcQmX4SV/6hoai4J2Ncu8Ai/JYmkfoN0S/aBZSTS9Q==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O80@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 2562787
+3 _WDTH 3000
+3 _HGHT 2000
+2 TITL queenstown-new-zealand-piano
+1 _OID f8cc886e-3833-45b7-a3e6-48f217b7569f
+1 _CREA 2017-09-02 06:16:05.976
+1 _USER VCnhq/ZA3O4V4MrVjedImMktyuEX3GI2JHhFygule3sp1xJ9wYRC5uAsOyTWTopowL0l6Wik1mXw8h3DlSFM+g==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O81@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 568361
+3 _WDTH 1920
+3 _HGHT 1080
+2 TITL 20160321016
+1 _OID f8ddcdcf-c5da-4d7e-b404-5813901e8087
+1 _CREA 2017-09-02 06:15:59.107
+1 _USER Vw6Ywkk2oa8ZPV8OjNV8yg4KaT3StcIm8CAu2JGGpRjkXLOMNcwihF9lSXwOLHFlobD6AD6uIQPIEk7B2OcsJQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O82@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 2138573
+3 _WDTH 3750
+3 _HGHT 2500
+2 TITL art-kosmos-zemlya-atmosfera-7314
+1 _OID f8f53570-e9cd-47fc-b6af-95f54a4247b1
+1 _CREA 2017-09-02 06:16:01.197
+1 _USER xYds+fgR0ChikD9+3RDqCcSsVVua6qmxn12PObWoVl06rzwmRM2J93PIhXyZ7qT0qPSZjorxGi8en40jev951Q==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL Y
+0 @O83@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 110077
+3 _WDTH 600
+3 _HGHT 412
+2 TITL 0901-287-1-LL-kyodo
+1 _OID fd026f2c-c77e-4b3e-b946-2fd859b79d98
+1 _CREA 2017-09-02 11:30:43.521
+1 _USER jlGaM2uojsPPY673uJJCuNIo88DeXK1j8uITvzOum/cuLBdIDGl2MqhF+OhxcZeFcJ5Brsrl2NilqhlhdZyGoA==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O84@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 523068
+3 _WDTH 1638
+3 _HGHT 912
+2 TITL antie2010-02-15 13.59.00
+1 _OID fd2f506b-e3c0-4244-8e48-cdb2613d63ff
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:17:51.903
+1 _USER MdWQFelEVLNGrf88ctgiW9JrDIRt66KUcWU9FfyjeVvAVH97Mhg3XTHdvJ+H+61Uvgnq5sw2DjkkSS/MzUw1uw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O85@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 72164
+3 _WDTH 381
+3 _HGHT 530
+2 TITL br1IMG_0410
+1 _OID fe776390-c933-4ef4-a4de-b850bacfb90b
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 06:02:42.973
+1 _USER v7opMRzpo6fIoqTuVW6ZgMUrpLTCofuUpohJLYGG0bcll6fgmqHzsTnTWb/SkEkUH6YK1J/bxSILTHmcDpf1dg==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O86@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 32500
+3 _WDTH 258
+3 _HGHT 314
+2 TITL DIngshi zhi
+1 _OID ff1fe26f-a360-49d3-a8d5-94253e8b140e
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2016-03-03 05:57:34.660
+1 _USER X/uStOy0mBOKdCQ+Orer1YPI7W5Ve3lFZMaIO74UmyaW0WD223OwzbQKZQVjpl9s7oVxupYxZxQcYz2XPvgzDw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 TRLR
