@@ -41,7 +41,7 @@ public class CarController {
     // --- R: Read One (根据 ID 读取单个车辆) ---
     // GET /api/cars/{id}
     @GetMapping("/{id}")
-    public ResponseEntity<Car> getCarById(@PathVariable Integer id) {
+    public ResponseEntity<Car> getCarById(@PathVariable Long id) {
         Optional<Car> carData = carRepository.findById(id);
 
         if (carData.isPresent()) {
@@ -54,7 +54,7 @@ public class CarController {
     // --- U: Update (更新车辆信息) ---
     // PUT /api/cars/{id}
     @PutMapping("/{id}")
-    public ResponseEntity<Car> updateCar(@PathVariable Integer id, @RequestBody Car carDetails) {
+    public ResponseEntity<Car> updateCar(@PathVariable Long id, @RequestBody Car carDetails) {
         Optional<Car> carData = carRepository.findById(id);
 
         if (carData.isPresent()) {
@@ -74,7 +74,7 @@ public class CarController {
     // --- D: Delete (删除车辆) ---
     // DELETE /api/cars/{id}
     @DeleteMapping("/{id}")
-    public ResponseEntity<HttpStatus> deleteCar(@PathVariable Integer id) {
+    public ResponseEntity<HttpStatus> deleteCar(@PathVariable Long id) {
         try {
             carRepository.deleteById(id);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT); // 返回 204 No Content

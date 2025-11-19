@@ -12,7 +12,7 @@ import com.ideen.accessingdatasqlite3.model.Car;
  * 泛型参数：<实体类, 主键类型>
  */
 @Repository
-public interface CarRepository extends JpaRepository<Car, Integer> {
+public interface CarRepository extends JpaRepository<Car, Long> {
         // 自定义方法示例：根据品牌查找所有汽车
     // Spring Data JPA 会自动实现此查询：SELECT * FROM cars WHERE brand = ?
     java.util.List<Car> findByBrand(String brand);
