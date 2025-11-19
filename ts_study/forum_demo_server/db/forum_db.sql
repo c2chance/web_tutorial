@@ -75,3 +75,14 @@ CREATE TABLE IF NOT EXISTS comment (
 
 INSERT INTO comment (post_id, author_id, reply_to, content)
   VALUES (1, 1, 1, 'both lanuage is good, but...')
+  
+CREATE TABLE IF NOT EXISTS cars (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    brand VARCHAR(255) NOT NULL,
+    model VARCHAR(255) UNIQUE NOT NULL,
+    color VARCHAR(255) NOT NULL,
+    created DATETIME DEFAULT CURRENT_TIMESTAMP,
+    modified DATETIME DEFAULT CURRENT_TIMESTAMP
+)
+
+
