@@ -22,6 +22,9 @@ bower_components
 
 # Dependency directories
 node_modules/
+dist
+dist-ssr
+*.local
 
 # Optional eslint cache
 .eslintcache
