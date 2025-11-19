@@ -10,10 +10,10 @@ public class Accessingdatasqlite3Application {
 		SpringApplication.run(Accessingdatasqlite3Application.class, args);
         System.out.println("Car Shopee Application started successfully on http://localhost:8080");
         System.out.println("Available APIs:");
-        System.out.println("  - GET /api/cars         : 获取所有车辆");
-        System.out.println("  - GET /api/cars/{id}    : 获取单个车辆");
-        System.out.println("  - POST /api/cars        : 创建新车辆 (需要 JSON Body)");
-        System.out.println("  - PUT /api/cars/{id}    : 更新车辆");
-        System.out.println("  - DELETE /api/cars/{id} : 删除车辆");		
+        System.out.println("  - GET /api/cars         : Get all cars");
+        System.out.println("  - GET /api/cars/{id}    : Get one car");
+        System.out.println("  - POST /api/cars        : Create a New car (need JSON Body)");
+        System.out.println("  - PUT /api/cars/{id}    : Update one car");
+        System.out.println("  - DELETE /api/cars/{id} : Delete one car");		
 	}
 }
