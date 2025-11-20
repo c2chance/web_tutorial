@@ -29,6 +29,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.xerial:sqlite-jdbc:3.45.1.0'
 	implementation 'org.hibernate.orm:hibernate-community-dialects:6.2.7.Final'
+
+	// In-memory DB for tests (H2)
+	testImplementation 'com.h2database:h2'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
