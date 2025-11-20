@@ -1,8 +1,8 @@
 package com.ideen.accessingdatasqlite3;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -29,7 +29,7 @@ public class CarRepositoryTest {
 
 	@BeforeEach
 	void cleanDb() {
-		repo.deleteAll();
+		//repo.deleteAll();
 	}
 
 	@Test
