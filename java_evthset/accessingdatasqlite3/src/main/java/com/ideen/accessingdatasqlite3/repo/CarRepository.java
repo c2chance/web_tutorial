@@ -7,13 +7,13 @@ import com.ideen.accessingdatasqlite3.model.Car;
 
 
 /**
- * Spring Data JPA Repository æ¥å£ï¼Œç”¨äº 'Car' å®ä½“ã€‚
- * æä¾› findAll, findById, save, deleteById ç­‰ CRUD æ–¹æ³•ã€‚
- * æ³›å‹å‚æ•°ï¼š<å®ä½“ç±», ä¸»é”®ç±»å‹>
+ * Spring Data JPA Repository ½Ó¿Ú£¬ÓÃÓÚ 'Car' ÊµÌå¡£
+ * Ìá¹© findAll, findById, save, deleteById µÈ CRUD ·½·¨¡£
+ * ·ºĞÍ²ÎÊı£º<ÊµÌåÀà, Ö÷¼üÀàĞÍ>
  */
 @Repository
 public interface CarRepository extends JpaRepository<Car, Long> {
-        // è‡ªå®šä¹‰æ–¹æ³•ç¤ºä¾‹ï¼šæ ¹æ®å“ç‰ŒæŸ¥æ‰¾æ‰€æœ‰æ±½è½¦
-    // Spring Data JPA ä¼šè‡ªåŠ¨å®ç°æ­¤æŸ¥è¯¢ï¼šSELECT * FROM cars WHERE brand = ?
+        // ×Ô¶¨Òå·½·¨Ê¾Àı£º¸ù¾İÆ·ÅÆ²éÕÒËùÓĞÆû³µ
+    // Spring Data JPA »á×Ô¶¯ÊµÏÖ´Ë²éÑ¯£ºSELECT * FROM cars WHERE brand = ?
     java.util.List<Car> findByBrand(String brand);
 }
