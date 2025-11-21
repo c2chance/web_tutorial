@@ -42,3 +42,15 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+tasks.register("buildApp") {
+	dependsOn("clean", "build")
+	group = "application"
+	description = "Cleans and builds the Spring Boot application."
+}
+
+tasks.register("runApp") {
+	dependsOn("bootRun")
+	group = "application"
+	description = "Runs the Spring Boot application."
+}
