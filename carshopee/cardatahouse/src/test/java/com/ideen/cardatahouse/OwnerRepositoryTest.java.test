@@ -1,0 +1,55 @@
+package com.ideen.cardatahouse;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.data.jdbc.DataJdbcTest;
+import org.springframework.test.context.ActiveProfiles;
+
+import com.ideen.cardatahouse.domain.Owner;
+import com.ideen.cardatahouse.domain.OwnerRepository;
+
+@DataJdbcTest
+@ActiveProfiles("test")
+public class OwnerRepositoryTest {
+    @Autowired
+    private OwnerRepository ownerRepository;
+
+    @Test
+    void testOwnerRepositoryNotNull() {
+        assert (ownerRepository != null);
+    }
+    
+    @Test
+    void testSaveOwner() {
+        Owner owner = new Owner();
+        owner.setFirstname("John");
+        owner.setLastname("Doe");
+        Owner savedOwner = ownerRepository.save(owner);
+        assert (savedOwner.getOwnerid() != null);
+    }
+
+    @Test
+    void testFindOwnerById() {
+        Owner owner = new Owner();
+        owner.setFirstname("Jane");
+        owner.setLastname("Smith");
+        Owner savedOwner = ownerRepository.save(owner);
+        Long ownerId = savedOwner.getOwnerid();
+        Owner foundOwner = ownerRepository.findById(ownerId).orElse(null);
+        assert (foundOwner != null);
+        assert (foundOwner.getFirstname().equals("Jane"));
+        assert (foundOwner.getLastname().equals("Smith"));
+    }
+    
+    @Test
+    void testDeleteOwner() {
+        Owner owner = new Owner();
+        owner.setFirstname("Alice");
+        owner.setLastname("Johnson");
+        Owner savedOwner = ownerRepository.save(owner);
+        Long ownerId = savedOwner.getOwnerid();
+        ownerRepository.deleteById(ownerId);
+        Owner deletedOwner = ownerRepository.findById(ownerId).orElse(null);
+        assert (deletedOwner == null);
+    }
+}

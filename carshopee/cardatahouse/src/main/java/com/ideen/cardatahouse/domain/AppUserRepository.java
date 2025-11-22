@@ -2,7 +2,7 @@ package com.ideen.cardatahouse.domain;
 
 import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+//import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 /*
 @RepositoryRestResource(exported = false)
 public interface AppUserRepository extends CrudRepository<AppUser, Long> {
@@ -21,7 +21,7 @@ public interface AppUserRepository extends CrudRepository<AppUser, Long> {
  * 继承 JpaRepository 提供了标准的 CRUD 功能。
  * 泛型参数：<实体类, 主键类型>
  */
-@RepositoryRestResource(exported = false)
+//@RepositoryRestResource(exported = false)
 public interface AppUserRepository extends CrudRepository<AppUser, Long> {
 
     /**
