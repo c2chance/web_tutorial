@@ -37,13 +37,13 @@ public class AccessingdatamongodbApplication implements CommandLineRunner {
 
 		System.out.println("Customer found with findByFirstName('Alice'):");
 		System.out.println("--------------------------------");
-		System.out.printLn(repository.findByFirstName("Alice"));
+		System.out.println(repository.findByFirstName("Alice"));
 		System.out.println();
 
 		System.out.println("Customers found with findByLastName('Smith'):");
 		System.out.println("--------------------------------");
 		for (Customer customer : repository.findByLastName("Smith")) {
-			System.out.printLn(customer);
+			System.out.println(customer);
 		}
 		System.out.println();
 	}
