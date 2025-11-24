@@ -38,5 +38,5 @@ public interface AppUserRepository extends CrudRepository<AppUser, Long> {
      * @param username 要检查的用户名
      * @return 如果存在则返回 true
      */
-    boolean existsByUsername(String username);
+    //boolean existsByUsername(String username);
 }
