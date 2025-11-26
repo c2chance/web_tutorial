@@ -13,12 +13,12 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
-@EnableWebSecurity
+//@EnableWebSecurity
 public class WebSecurityConfig {
     
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http.authorizeHttpRequests((requests)->requests.requestMatchers("/","home").permitAll()
+        http.authorizeHttpRequests((requests)->requests.requestMatchers("/","/home").permitAll()
             .anyRequest().authenticated())
             .formLogin((form)->form.loginPage("/login").permitAll())
             .logout((logout)->logout.permitAll());
@@ -30,6 +30,7 @@ public class WebSecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
+    @Bean
     public UserDetailsService userDetailsService() {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
         UserDetails user = User.builder().username("user").password(encoder.encode("password"))
