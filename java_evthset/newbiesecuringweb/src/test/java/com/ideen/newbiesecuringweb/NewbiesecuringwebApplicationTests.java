@@ -3,70 +3,71 @@ package com.ideen.newbiesecuringweb;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-//import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-//import org.springframework.context.annotation.Import;
-//import org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration;
 import org.springframework.security.test.context.support.WithMockUser;
-//import org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.FormLoginRequestBuilder;
+import org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.FormLoginRequestBuilder;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
+// import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+//import org.springframework.context.annotation.Import;
+//import org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration;
+//import org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.FormLoginRequestBuilder;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.formLogin;
 import static org.springframework.security.test.web.servlet.response.SecurityMockMvcResultMatchers.authenticated;
 import static org.springframework.security.test.web.servlet.response.SecurityMockMvcResultMatchers.unauthenticated;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-//import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
-
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.redirectedUrlPattern;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
-//@AutoConfigureMockMvc
+@AutoConfigureMockMvc
 class NewbiesecuringwebApplicationTests {
 
-//	@Autowired
-//	private MockMvc mockMvc;
+	@Autowired
+	private MockMvc mockMvc;
 
 	//@Test
 	//void contextLoads() {
 	//}
 	
-//	@Test
-	//public void loginWithValidUserThenAuthenticated() throws Exception {
-		/*
+	@Test
+	public void loginWithValidUserThenAuthenticated() throws Exception {
 		FormLoginRequestBuilder login = formLogin()
 			.user("user")
 			.password("password");
-		*/
-	//	mockMvc.perform(
-//				formLogin().user("user").password("password"))
-//				.andExpect(authenticated().withUsername("user"));
 
-//	}
+		mockMvc.perform(login)
+			.andExpect(authenticated().withUsername("user"));
 	
-/*
+	}
+	
+
 	@Test
 	public void loginWithInvalidUserThenUnauthenticated() throws Exception {
-		mockMvc.perform(
-				formLogin().user("invalid").password("invalidpassword"))
-				.andExpect(unauthenticated());
+		FormLoginRequestBuilder login = formLogin()
+			.user("invalid")
+			.password("invalidpassword");
+
+		mockMvc.perform(login)
+			.andExpect(unauthenticated());
 	}
-	*/
-/*
+	
+
 	@Test
 	public void accessUnsecuredResourceThenOk() throws Exception {
 		mockMvc.perform(get("/")).andExpect(status().isOk());
 	}
-*/
-	//@Test
-	//public void accessSecuredResourceUnauthenticatedThenRedirectsToLogin() throws Exception {
-	//	mockMvc.perform(get("/hello")).andExpect(status().is3xxRedirection())
-	//		.andExpect(redirectedUrlPattern("**/login"));
-	//}
-/*
+
+	@Test
+	public void accessSecuredResourceUnauthenticatedThenRedirectsToLogin() throws Exception {
+		mockMvc.perform(get("/hello")).andExpect(status().is3xxRedirection())
+			.andExpect(redirectedUrlPattern("**/login"));
+	}
+
 	@Test
 	@WithMockUser(username="user")
 	public void accessSecuredResourceAuthenticatedThenOk() throws Exception {
@@ -75,5 +76,5 @@ class NewbiesecuringwebApplicationTests {
 
 		assertThat(mvcResult.getResponse().getContentAsString()).contains("Hello user!");
 	}
-	*/
+	
 }
