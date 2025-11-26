@@ -3,24 +3,7 @@ package com.ideen.cardatahouse.domain;
 import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;
 //import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-/*
-@RepositoryRestResource(exported = false)
-public interface AppUserRepository extends CrudRepository<AppUser, Long> {
-    Optional<AppUser> findByUsername(String username);
-}
-*/
-//package com.example.repository;
 
-//import com.example.model.AppUser;
-//import org.springframework.data.jpa.repository.JpaRepository;
-//import org.springframework.stereotype.Repository;
-//import java.util.Optional;
-
-/**
- * Spring Data JPA Repository 接口，用于 'AppUser' 实体。
- * 继承 JpaRepository 提供了标准的 CRUD 功能。
- * 泛型参数：<实体类, 主键类型>
- */
 //@RepositoryRestResource(exported = false)
 public interface AppUserRepository extends CrudRepository<AppUser, Long> {
 

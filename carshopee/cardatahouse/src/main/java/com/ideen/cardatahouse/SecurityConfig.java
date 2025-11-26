@@ -22,8 +22,6 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import static org.springframework.security.config.Customizer.withDefaults;
 import com.ideen.cardatahouse.service.UserDetailsServiceImpl;
-//import com.ideen.cardatahouse.AuthenticationFilter;
-//import com.ideen.cardatahouse.AuthEntryPoint;
 
 @Configuration
 @EnableWebSecurity
@@ -44,13 +42,13 @@ public class SecurityConfig {
 	}
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        ///*
+        /*
         // Disable CSRF and enable CORS
         http.csrf(csrf -> csrf.disable()).cors(withDefaults())
              .authorizeHttpRequests(authorizeHttpRequests -> 
                 authorizeHttpRequests.anyRequest().permitAll());
-        //*/
-        /*
+        */
+        ///*
         http.csrf((csrf)->csrf.disable()).cors(withDefaults())
 		.sessionManagement(
 		(sessionManagement)->sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -59,7 +57,7 @@ public class SecurityConfig {
                     .addFilterBefore(authenticationFilter, UsernamePasswordAuthenticationFilter.class)
                             .exceptionHandling((exceptionHandling)->exceptionHandling.authenticationEntryPoint(exceptionHandler));
 
-             */
+            //*/
             return http.build();
     }
 	@Bean

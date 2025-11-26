@@ -22,11 +22,8 @@ public class Owner {
     private Long ownerid;
     private String firstname, lastname;
 
-    //@OneToMany(cascade = CasecadeType.ALL, mappedBy = "owner")
-    //private List<Car>cars;
-
-    public Owner() {
-    }
+	public Owner() {
+	}
 
     public Owner(String firstname, String lastname) {
         super();
