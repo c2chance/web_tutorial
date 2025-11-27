@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
-
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -37,9 +36,10 @@ public class SecurityConfig {
         this.exceptionHandler = exceptionHandler;
     }
     
-	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-		auth.userDetailsService(userDetailsService).passwordEncoder(new BCryptPasswordEncoder());
-	}
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(userDetailsService).passwordEncoder(new BCryptPasswordEncoder());
+    }
+    
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         /*
@@ -48,7 +48,17 @@ public class SecurityConfig {
              .authorizeHttpRequests(authorizeHttpRequests -> 
                 authorizeHttpRequests.anyRequest().permitAll());
         */
-        ///*
+
+        ///* 
+        // visit /login no need authorize, other endpoints need
+        http.csrf((csrf) -> csrf.disable()).sessionManagement((sessionManagement)->sessionManagement.
+            sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+            .authorizeHttpRequests((authorizeHttpRequests)->
+                authorizeHttpRequests.requestMatchers(HttpMethod.POST, "/login")
+                    .permitAll().anyRequest().authenticated());
+        //*/
+        
+        /*
         http.csrf((csrf)->csrf.disable()).cors(withDefaults())
 		.sessionManagement(
 		(sessionManagement)->sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -57,8 +67,8 @@ public class SecurityConfig {
                     .addFilterBefore(authenticationFilter, UsernamePasswordAuthenticationFilter.class)
                             .exceptionHandling((exceptionHandling)->exceptionHandling.authenticationEntryPoint(exceptionHandler));
 
-            //*/
-            return http.build();
+        */
+        return http.build();
     }
 	@Bean
 	public PasswordEncoder passwordEncoder() {
@@ -82,4 +92,5 @@ public class SecurityConfig {
         source.registerCorsConfiguration("/**", config);
         return source;
     }
+
 }
