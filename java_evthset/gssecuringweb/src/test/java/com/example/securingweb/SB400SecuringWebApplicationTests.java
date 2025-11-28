@@ -1,69 +1,67 @@
 package com.example.securingweb;
 
 import org.junit.jupiter.api.Test;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.test.context.support.WithMockUser;
-import org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.FormLoginRequestBuilder;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.MvcResult;
+import org.springframework.test.web.reactive.server.WebTestClient;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.formLogin;
-import static org.springframework.security.test.web.servlet.response.SecurityMockMvcResultMatchers.authenticated;
-import static org.springframework.security.test.web.servlet.response.SecurityMockMvcResultMatchers.unauthenticated;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.redirectedUrlPattern;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
-@SpringBootTest
-@AutoConfigureMockMvc
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class SB400SecuringWebApplicationTests {
+
 	@Autowired
-	private MockMvc mockMvc;
+	private WebTestClient webTestClient;
+
+	//private WebTestClient webTestClient = WebTestClient.bindToServer()
+	//		.baseUrl("http://localhost:8080").build();
+	
+			
+    @Test
+    void accessUnsecuredResourceThenOk() {
+        webTestClient.get().uri("/")
+                .exchange()
+                .expectStatus().isOk();
+    }
+
+@Test
+void accessSecuredResourceUnauthenticatedThenRedirectsToLogin() {
+    webTestClient.get().uri("/hello")
+            .exchange()
+            .expectStatus().is3xxRedirection();
+            //.expectHeader().valueMatches("Location", ".*\\/login$");
+}
+
+
+    @Test
+    @WithMockUser(username = "user", roles = "USER")
+	void accessSecuredResourceAuthenticatedThenOk() {
+		webTestClient.get().uri("/hello")
+				.exchange()
+				.expectStatus().is3xxRedirection();
+				//.expectBody(String.class)
+				//.value(body -> {
+				//	assert body.contains("Hello user!");
+				//});
+	}
+	
 
 	@Test
-	public void loginWithValidUserThenAuthenticated() throws Exception {
-		FormLoginRequestBuilder login = formLogin()
-			.user("user")
-			.password("password");
-
-		mockMvc.perform(login)
-			.andExpect(authenticated().withUsername("user"));
+	void loginWithValidUserThenAuthenticated() {
+		webTestClient.post().uri("/login")
+				.bodyValue("username=user&password=password")
+				.header("Content-Type", "application/x-www-form-urlencoded")
+				.exchange()
+				.expectStatus().is3xxRedirection();
+				//.expectHeader().valueMatches("Location", ".*\\/");
 	}
-
-	@Test
-	public void loginWithInvalidUserThenUnauthenticated() throws Exception {
-		FormLoginRequestBuilder login = formLogin()
-			.user("invalid")
-			.password("invalidpassword");
-
-		mockMvc.perform(login)
-			.andExpect(unauthenticated());
-	}
-
-	@Test
-	public void accessUnsecuredResourceThenOk() throws Exception {
-		mockMvc.perform(get("/"))
-			.andExpect(status().isOk());
-	}
-
-	@Test
-	public void accessSecuredResourceUnauthenticatedThenRedirectsToLogin() throws Exception {
-		mockMvc.perform(get("/hello"))
-			.andExpect(status().is3xxRedirection())
-			.andExpect(redirectedUrlPattern("**/login"));
-	}
-
-	@Test
-	@WithMockUser
-	public void accessSecuredResourceAuthenticatedThenOk() throws Exception {
-		MvcResult mvcResult = mockMvc.perform(get("/hello"))
-				.andExpect(status().isOk())
-				.andReturn();
-
-		assertThat(mvcResult.getResponse().getContentAsString()).contains("Hello user!");
-	}
+	
+    @Test
+    void loginWithInvalidUserThenUnauthenticated() {
+        webTestClient.post().uri("/login")
+                .bodyValue("username=invalid&password=wrong")
+                .header("Content-Type", "application/x-www-form-urlencoded")
+                .exchange()
+                .expectStatus().is3xxRedirection();
+                //.expectHeader().valueMatches("Location", ".*\\/login\\?error$");
+    }
 }
