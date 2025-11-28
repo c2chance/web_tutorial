@@ -15,7 +15,7 @@ public class DataInitializer {
     
     @Bean
     @Transactional
-    @public CommandLineRunner initRolesAndUsers(RoleRepository roleRepository, UserRepsitory userRepsitory, PasswordEncoder passwordEncoder) {
+    public CommandLineRunner initRolesAndUsers(RoleRepository roleRepository, UserRepsitory userRepsitory, PasswordEncoder passwordEncoder) {
         return args -> {
             if (roleRepository.findByName("USER") == null) {
                 Role userRole = new Role();
@@ -39,7 +39,7 @@ public class DataInitializer {
                 roles.add(userRole);
                 user.setRoles(roles);
 
-                userRepsitory.sve(user);
+                userRepsitory.save(user);
             }
 
             if (userRepsitory.findByUsername("admin") == null) {
@@ -52,7 +52,7 @@ public class DataInitializer {
                 roles.add(adminRole);
                 admin.setRoles(roles);
 
-                userRepsitory.sve(admin);
+                userRepsitory.save(admin);
             }
 
         }
