@@ -50,3 +50,21 @@ public class WebSecurityConfig {
 		return new InMemoryUserDetailsManager(user);
 	}
 }
+
+http
+	// 开启 HttpSecurity 配置
+	.authorizeHttpRequests()
+	// 此静态资源无须认证, 直接访问, 静态资源放行
+	.antMatchers("/css/**", "/js/**", "/image/**")
+	.permitAll()
+	// 任何请求都需认证用户才能访问
+	.anyRequest().authenticated()
+	.and()
+	// 开启自定义登录, 不使用系统默认配置
+	.formLogin()
+		// 自定义登录页 URL
+		.loginPage("/login")
+		// 此资源无须认证, 允许直接访问
+		.permitAll();
+
+return http.build();
