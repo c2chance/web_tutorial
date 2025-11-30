@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
+//import org.springframework.context.annotation.Profile;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -23,7 +23,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import static org.springframework.security.config.Customizer.withDefaults;
 import com.ideen.cardatahouse.service.UserDetailsServiceImpl;
 
-@Profile("Disabled")
+//@Profile("Disabled")
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
@@ -51,7 +51,7 @@ public class SecurityConfig {
                 authorizeHttpRequests.anyRequest().permitAll());
         */
 
-        ///* 
+        /* 
         // visit /login no need authorize, other endpoints need
         http.csrf((csrf) -> csrf.disable())
                 .sessionManagement(
@@ -59,9 +59,9 @@ public class SecurityConfig {
                 .authorizeHttpRequests(
                         (authorizeHttpRequests) -> authorizeHttpRequests.requestMatchers(HttpMethod.POST, "/login")
                                 .permitAll().anyRequest().authenticated());
-        //*/
+        */
 
-        /*
+        ///*
         http.csrf((csrf)->csrf.disable()).cors(withDefaults())
         .sessionManagement(
         (sessionManagement)->sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -70,7 +70,7 @@ public class SecurityConfig {
                     .addFilterBefore(authenticationFilter, UsernamePasswordAuthenticationFilter.class)
                             .exceptionHandling((exceptionHandling)->exceptionHandling.authenticationEntryPoint(exceptionHandler));
         
-        */
+        //*/
         return http.build();
     }
 
