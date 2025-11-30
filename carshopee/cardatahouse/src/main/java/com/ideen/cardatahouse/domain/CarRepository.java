@@ -1,13 +1,14 @@
 package com.ideen.cardatahouse.domain;
 
-//import java.util.List;
-//import org.springframework.data.jpa.repository.Query;
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @RepositoryRestResource(path="vehicles")
 public interface CarRepository extends CrudRepository<Car, Long> {
-/*
+
     @Query("select c from Car c where c.brand = ?1")
     List<Car> findByBrand(String brand);
 
@@ -23,6 +24,5 @@ public interface CarRepository extends CrudRepository<Car, Long> {
     List<Car> findByBrandOrColor(String brand, String color);
 
     List<Car> findByBrandOrderByModelYearAsc(String brand);
-*/
     
 }
