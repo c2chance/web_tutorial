@@ -44,12 +44,12 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        /*
+        ///*
         // Disable CSRF and enable CORS
         http.csrf(csrf -> csrf.disable()).cors(withDefaults())
              .authorizeHttpRequests(authorizeHttpRequests -> 
                 authorizeHttpRequests.anyRequest().permitAll());
-        */
+        //*/
 
         /* 
         // visit /login no need authorize, other endpoints need
@@ -61,7 +61,7 @@ public class SecurityConfig {
                                 .permitAll().anyRequest().authenticated());
         */
 
-        ///*
+        /*
         http.csrf((csrf)->csrf.disable()).cors(withDefaults())
         .sessionManagement(
         (sessionManagement)->sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -70,7 +70,7 @@ public class SecurityConfig {
                     .addFilterBefore(authenticationFilter, UsernamePasswordAuthenticationFilter.class)
                             .exceptionHandling((exceptionHandling)->exceptionHandling.authenticationEntryPoint(exceptionHandler));
         
-        //*/
+        */
         return http.build();
     }
 
