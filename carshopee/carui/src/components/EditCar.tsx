@@ -3,6 +3,12 @@ import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogTitle from '@mui/material/DialogTitle';
 import CarDialogContent from './CarDialogContent';
+// tag::add-css-config
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import EditIcon from '@mui/icons-material/Edit';
+import Tooltip from '@mui/material/Tooltip';
+// end::add-css-config
 import { Car, CarResponse, CarEntry } from '../types';
 import { updateCar } from '../api/carapi';
 import { useMutation, useQueryClient } from '@tanstack/react-query';

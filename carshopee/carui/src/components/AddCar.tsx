@@ -5,6 +5,9 @@ import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogTitle from '@mui/material/DialogTitle';
 import CarDialogContent from './CarDialogContent';
+// tag::add-css-config
+import Button from '@mui/material/Button';
+// end::add-css-config
 import { Car } from '../types';
 
 function AddCar() {
