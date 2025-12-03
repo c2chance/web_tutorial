@@ -6,11 +6,15 @@ import Snackbar from '@mui/material/Snackbar';
 // tag::add-css-config
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
-// end::add-css-config
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
 import AddCar from './AddCar';
 import EditCar from './EditCar';
 
-function Carlist() {
+type CarlistProps = {
+  logOut?: () => void;
+}
+function Carlist({ logOut }: CarlistProps) {
     const [open, setOpen] = useState(false);
 
     const queryClient = useQueryClient();
@@ -78,14 +82,17 @@ function Carlist() {
     else {
         return (
             <>
+        <Stack direction="row" alignItems="center" justifyContent="space-between">
                 <AddCar />
+          <Button onClick={logOut}>Log out</Button>
+        </Stack>
                 <DataGrid 
                     rows={data}
                     columns={columns}
                     disableRowSelectionOnClick={true}
-                    getRowId={row => row._links.self.href}
+          getRowId={row => row._links.self.href}
                     slots={{ toolbar: GridToolbar }}
-                />
+        />
                 <Snackbar
                     open={open}
                     autoHideDuration={2000}

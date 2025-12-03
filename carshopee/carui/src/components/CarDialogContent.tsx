@@ -1,8 +1,9 @@
-import DialogContent from '@mui/material/DialogContent';
 // tag::add-css-config
 import TextField from '@mui/material/TextField';
 import Stack from '@mui/material/Stack';
 // end::add-css-config
+import DialogContent from '@mui/material/DialogContent';
+
 import { Car } from '../types';
 
 type DialogFormProps = {

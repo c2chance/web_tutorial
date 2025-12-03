@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogTitle from '@mui/material/DialogTitle';
-import CarDialogContent from './CarDialogContent';
+
 // tag::add-css-config
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
@@ -10,6 +10,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import Tooltip from '@mui/material/Tooltip';
 // end::add-css-config
 import { Car, CarResponse, CarEntry } from '../types';
+import CarDialogContent from './CarDialogContent';
 import { updateCar } from '../api/carapi';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 
@@ -40,7 +41,7 @@ function EditCar({ cardata }: FormProps) {
     });
 
     const handleClickOpen = () => {
-        setOpen(true);
+    setOpen(true);
         setCar({
             brand: cardata.brand,
             model: cardata.model,
@@ -69,9 +70,11 @@ function EditCar({ cardata }: FormProps) {
 
     return (
         <>
-            <button onClick={handleClickOpen}>
-                Edit
-            </button>
+	        <Tooltip title="Edit car">
+                <IconButton aria-label="edit" size="small" onClick={handleClickOpen}>
+                    <EditIcon fontSize="small" />
+                </IconButton>
+	        </Tooltip>
             <Dialog open={open} onClose={handleClose}>
                 <DialogTitle>Edit Car</DialogTitle>
                 <CarDialogContent car={car} handleChange={handleChange} />
