@@ -1,16 +1,13 @@
-import { defineConfig } from 'vitest/config'
+/// <reference types="vitest/config" />
+import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [ react() ],
   test: {
-    //globals: true,
+    globals: true,
     environment: 'jsdom',
-    setupFiles: ['./vitest.setup.ts'],
-    mockReset: true,
-    alias: {
-      '\\.css$': '/src/__mocks__/styleMock.js',
-    }
+
   },
 })
