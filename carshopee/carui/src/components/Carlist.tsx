@@ -82,22 +82,20 @@ function Carlist({ logOut }: CarlistProps) {
     else {
         return (
             <>
-        <Stack direction="row" alignItems="center" justifyContent="space-between">
-                <AddCar />
-          <Button onClick={logOut}>Log out</Button>
-        </Stack>
-                <DataGrid 
-                    rows={data}
-                    columns={columns}
-                    disableRowSelectionOnClick={true}
-          getRowId={row => row._links.self.href}
-                    slots={{ toolbar: GridToolbar }}
-        />
+                <Stack direction="row" alignItems="center" justifyContent="space-between">
+                    <AddCar />
+                    <Button onClick={logOut}>Log out</Button>
+                </Stack>
+                <DataGrid rows={data} columns={columns} disableRowSelectionOnClick={true}
+                    getRowId={row => row._links.self.href}
+                        slots={{ toolbar: GridToolbar }}
+                />
                 <Snackbar
                     open={open}
                     autoHideDuration={2000}
                     onClose={() => setOpen(false)}
-                    message="Car deleted" />
+                    message="Car deleted" 
+                />
             </>
 
         );

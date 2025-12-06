@@ -36,7 +36,7 @@ function Login() {
                     setAuth(true);
                 }
             })
-            .catch(() => setOpen(true));
+                .catch(() => setOpen(true));
     }
 
     const handleLogout = () => {
@@ -48,31 +48,21 @@ function Login() {
         return <Carlist logOut={handleLogout} />;
     }
     else {
-    return (
-        <Stack spacing={2} alignItems="center" mt={2}>
-            <TextField
-                name="username"
-                label="username"
-                onChange={handleChange} />
-            <TextField 
-	    type="password" 
-	    name="password" 
-	    label="password" 
-	    onChange={handleChange} />
-            <Button 
-	    variant="outlined" 
-	    color="primary" 
-	    onClick={handleLogin}>
-                Login
-            </Button>
-            <Snackbar
-                open={open}
-                autoHideDuration={3000}
-                onClose={() => setOpen(false)}
-                message="Login failed: Check your username and password"
-            />
-        </Stack>
-    );
+        return (
+            <Stack spacing={2} alignItems="center" mt={2}>
+                <TextField name="username" label="username" onChange={handleChange} />
+                <TextField type="password" name="password" label="password" onChange={handleChange} />
+                <Button variant="outlined" color="primary" onClick={handleLogin}>
+                    Login
+                </Button>
+                <Snackbar
+                    open={open}
+                    autoHideDuration={3000}
+                    onClose={() => setOpen(false)}
+                    message="Login failed: Check your username and password"
+                />
+            </Stack>
+        );
     }
 }
 export default Login;
