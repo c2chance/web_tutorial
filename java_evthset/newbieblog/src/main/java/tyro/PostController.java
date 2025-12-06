@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/api/posts")
+//@RequestMapping("/posts")
 public class PostController {
 
     @Autowired
@@ -41,13 +42,13 @@ public class PostController {
     }
 
     @PutMapping("/{id}")
-    @PreAuthorize("hasAuthority('ROLE_ADMIN') or hasAuthority('ROLE_USER') and @postSecurity.isPostAuthor(#id, authentication))")
+    @PreAuthorize("hasAuthority('ROLE_ADMIN') or (hasAuthority('ROLE_USER') and @postSecurity.isPostAuthor(#id, authentication))")
     public Post updatePost(@PathVariable Long id, @RequestBody Post updatedPost, Authentication authentication) {
         Post post = postRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Post not found with id: " + id));
         
         if (!postSecurity.isPostAuthor(id, authentication)) {
-            throw new IllegalArgumentException("You are not the author of this post")
+            throw new IllegalArgumentException("You are not the author of this post");
         }
 
         post.setTitle(updatedPost.getTitle());
@@ -56,18 +57,16 @@ public class PostController {
     }
 
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasAuthority('ROLE_ADMIN') or hasAuthority('ROLE_USER') and postSecurity.isPostAuthor(#id, authentication))")
-    pulic String
-
-    deletePost(@PathVariable Long id, Authentication authentication) {
-        Post post = postRepository.findById(id).orElseThrow(()->new IllegalArgumnetException("Post not found with id: "+id));
+    @PreAuthorize("hasAuthority('ROLE_ADMIN') or (hasAuthority('ROLE_USER') and @postSecurity.isPostAuthor(#id, authentication))")
+    public String deletePost(@PathVariable Long id, Authentication authentication) {
+        Post post = postRepository.findById(id).orElseThrow(()->new IllegalArgumentException("Post not found with id: "+id));
 
         if (!postSecurity.isPostAuthor(id, authentication)) {
             throw new IllegalArgumentException("You are not the author of this post");
         }
 
         postRepository.delete(post);
-        return "Post deleted successfule";
+        return "Post deleted successfully";
         
     }
 

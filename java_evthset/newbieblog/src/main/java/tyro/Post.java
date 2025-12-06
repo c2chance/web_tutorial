@@ -1,5 +1,7 @@
 package tyro;
 
+import java.time.LocalDateTime;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,4 +24,8 @@ public class Post {
     
     @Column(nullable = false)
     private String author;
+
+    @Column(name = "published_date", nullable = false)
+    private LocalDateTime publishedDate;
+
 }
