@@ -7,6 +7,11 @@ import MyForm from './MyForm'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import ReactEventHandlerSimple from './ReactEventHandlerSimple'
+import MyList from './MyList'
+import MyTable from './MyTable'
+import OtherForm from './OtherForm'
+import ElseForm from './ElseForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +32,12 @@ function App() {
   useTitle(`You clicked ${count} times`);
 
   const userName = 'Chance.chih';
+
+  const [text, setText] = useState('');
+  const handleSubmit = (event) => {
+    alert(`You typed: ${text}`);
+    event.preventDefault();
+  }
   
   return (
     <>
@@ -41,12 +52,27 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      
+      <ElseForm />
+      {/*<OtherForm />*/}
+
       <h1>hi, Vite + React</h1>
+      
       <input ref={inputRef} />
       <button onClick={() => inputRef.current.focus()}>Focus input</button>
       
       {/*<MyForm />*/}
-      
+      <form onSubmit={handleSubmit}>
+        <input type='text' onChange={event => setText(event.target.value)} value={text} />
+        <input type='submit' value="try to press me"/>
+      </form>
+
+
+      <ReactEventHandlerSimple />
+      <MyList />
+      <MyTable />
+ 
+
       <div className="card">
         {/*<button onClick={() => setCount((count) => count + 1)}> */}
         <button onClick={()=>setCount(preCount=>preCount+6)}>
