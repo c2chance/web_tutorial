@@ -12,6 +12,7 @@ import MyList from './MyList'
 import MyTable from './MyTable'
 import OtherForm from './OtherForm'
 import ElseForm from './ElseForm'
+import WithOpenWeatherAPI from './WithOpenWeatherAPI'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -55,6 +56,7 @@ function App() {
       
       <ElseForm />
       {/*<OtherForm />*/}
+      <WithOpenWeatherAPI />
 
       <h1>hi, Vite + React</h1>
       

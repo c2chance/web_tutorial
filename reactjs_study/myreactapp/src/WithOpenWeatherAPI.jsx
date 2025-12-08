@@ -1,0 +1,36 @@
+import { useState, useEffect } from 'react'
+
+function WithOpenWeatherAPI() {
+
+  const [weather, setWeather] = useState({ temp: '', desc: '', icon: '' });
+
+  useEffect(() => {
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=\
+      London&APIKey=YOUR_API_KEY&units=metric')
+      .then(response => response.json())
+      .then(result => {
+        setWeather({
+          temp: result.main.temp,
+          desc: result.weather[0].main,
+          icon: result.weather[0].icon
+        })
+      })
+      .catch(err => console.error(err))
+  }, []);
+
+  if (weather.icon) {
+    return (
+      <>
+        <p>Temperature: {weather.temp}</p>
+        <p>Description: {weather.desc}</p>
+        <img src={`https://openweathermap.org/img/wn/${weather.icon}@2x.png`}
+          alt='weather icon'/>
+      </>
+    )
+  }
+  else {
+    return <>Loading...</>
+  }
+}
+
+export default WithOpenWeatherAPI;
