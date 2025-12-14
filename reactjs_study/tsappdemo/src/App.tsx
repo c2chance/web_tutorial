@@ -2,12 +2,16 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import HelloComponent from './HelloComponent'
+import HelloComponentWithArrow from './HelloComponentWithArrow'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <HelloComponent name="Alice" age={30} gender="male" />
+      <HelloComponentWithArrow name="Bob" age={25} gender="female"/>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
