@@ -5,12 +5,16 @@ import App from './App.tsx'
 import UseAhooksuseBoolean from './UseAhooksuseBoolean.tsx'
 //import UserProfile from './UserProfile.tsx'
 import AhooksuseRequestDemoFunc from './ahooks-userequest-demo.tsx'
+import UseAhooksuseUpdateEffect from './ahooks-useUpdateEffectDemo.tsx'
+import DatePickerDemo from './UseReactDatePicker.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
     <UseAhooksuseBoolean />
     {/*<UserProfile />*/}
-    <AhooksuseRequestDemoFunc />
+    {/*<AhooksuseRequestDemoFunc />*/}
+    {/*<UseAhooksuseUpdateEffect />*/}
+    <DatePickerDemo />
   </StrictMode>,
 )
